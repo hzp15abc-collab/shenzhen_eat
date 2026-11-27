@@ -1,0 +1,1 @@
+PASS: 48167 independent CSV/JSON invariance, cash, capacity, per-channel arithmetic, conditions and sensitivity checks; no canonical V3 values changed.
