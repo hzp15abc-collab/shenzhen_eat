@@ -1,0 +1,458 @@
+{
+  "pages": [
+    {
+      "page": 0,
+      "id": 1,
+      "section": "封面",
+      "title": "在新和，开一家能养活自己的小店？",
+      "continuation": false
+    },
+    {
+      "page": 1,
+      "id": 2,
+      "section": "先看这里",
+      "title": "这份报告，帮你先回答三个问题",
+      "continuation": false
+    },
+    {
+      "page": 2,
+      "id": "toc",
+      "section": "阅读地图",
+      "title": "想看哪一段？",
+      "continuation": false
+    },
+    {
+      "page": 3,
+      "id": 3,
+      "section": "看懂这个地方",
+      "title": "新和不只是学校商圈",
+      "continuation": false
+    },
+    {
+      "page": 4,
+      "id": 4,
+      "section": "看懂这个地方",
+      "title": "附近的两所学校是什么情况？",
+      "continuation": false
+    },
+    {
+      "page": 5,
+      "id": 5,
+      "section": "看懂这个地方",
+      "title": "谁会花钱买一份早餐？",
+      "continuation": false
+    },
+    {
+      "page": 6,
+      "id": 6,
+      "section": "看懂这个地方",
+      "title": "当地消费能力，能不能靠数据算出来？",
+      "continuation": false
+    },
+    {
+      "page": 7,
+      "id": 7,
+      "section": "看看同行",
+      "title": "找到了哪些同行？",
+      "continuation": false
+    },
+    {
+      "page": 8,
+      "id": 8,
+      "section": "看看同行",
+      "title": "便宜铺租，和好生意是两回事",
+      "continuation": false
+    },
+    {
+      "page": 9,
+      "id": 9,
+      "section": "看看同行",
+      "title": "铺子应该选在哪里？",
+      "continuation": false
+    },
+    {
+      "page": 10,
+      "id": 10,
+      "section": "选择做什么",
+      "title": "早餐可以便宜，但一定要可靠",
+      "continuation": false
+    },
+    {
+      "page": 11,
+      "id": 11,
+      "section": "选择做什么",
+      "title": "你先有五种生意可以比较",
+      "continuation": false
+    },
+    {
+      "page": 12,
+      "id": 12,
+      "section": "选择做什么",
+      "title": "传统早餐：熟悉的东西，最讲效率",
+      "continuation": false
+    },
+    {
+      "page": 13,
+      "id": 13,
+      "section": "选择做什么",
+      "title": "便携早餐：每单卖贵一点，成本也要算细",
+      "continuation": false
+    },
+    {
+      "page": 14,
+      "id": 14,
+      "section": "选择做什么",
+      "title": "早餐＋零食：下午也开店，就会更赚钱？",
+      "continuation": false
+    },
+    {
+      "page": 15,
+      "id": 15,
+      "section": "选择做什么",
+      "title": "全天营业：流水大，老板未必赚得多",
+      "continuation": false
+    },
+    {
+      "page": 16,
+      "id": 16,
+      "section": "选择做什么",
+      "title": "分时合作：先借地方试试，再考虑独立开店",
+      "continuation": false
+    },
+    {
+      "page": 17,
+      "id": 17,
+      "section": "选择做什么",
+      "title": "延长营业，不等于增加利润",
+      "continuation": false
+    },
+    {
+      "page": 18,
+      "id": 18,
+      "section": "怎么经营",
+      "title": "一家小店的五件事，比专业术语更重要",
+      "continuation": false
+    },
+    {
+      "page": 19,
+      "id": 19,
+      "section": "怎么经营",
+      "title": "20平方米，一天能做多少单？",
+      "continuation": false
+    },
+    {
+      "page": 20,
+      "id": 20,
+      "section": "怎么经营",
+      "title": "房租以外，谁真正帮你把店做下去？",
+      "continuation": false
+    },
+    {
+      "page": 21,
+      "id": 21,
+      "section": "签约之前",
+      "title": "签合同前，先确认这间铺能不能做餐饮",
+      "continuation": false
+    },
+    {
+      "page": 22,
+      "id": 22,
+      "section": "签约之前",
+      "title": "12万元转让费，得赚多少才能补回来？",
+      "continuation": false
+    },
+    {
+      "page": 23,
+      "id": 23,
+      "section": "钱到底怎么算",
+      "title": "开店要花的钱，和要准备的钱不同",
+      "continuation": false
+    },
+    {
+      "page": 24,
+      "id": "23a",
+      "section": "钱到底怎么算",
+      "title": "不开张的时候，哪些钱照样要付？",
+      "continuation": false
+    },
+    {
+      "page": 25,
+      "id": 24,
+      "section": "钱到底怎么算",
+      "title": "一份8块钱的早餐，老板能留下多少？",
+      "continuation": false
+    },
+    {
+      "page": 26,
+      "id": "24a",
+      "section": "钱到底怎么算",
+      "title": "卖100元，扣下食材还剩多少？",
+      "continuation": false
+    },
+    {
+      "page": 27,
+      "id": 25,
+      "section": "钱到底怎么算",
+      "title": "老板赚到的工资，不等于投资回报",
+      "continuation": false
+    },
+    {
+      "page": 28,
+      "id": 26,
+      "section": "钱到底怎么算",
+      "title": "五种模式，第二年每个月会怎样？",
+      "continuation": false
+    },
+    {
+      "page": 29,
+      "id": 27,
+      "section": "钱到底怎么算",
+      "title": "每天需要多少份才能保本？",
+      "continuation": false
+    },
+    {
+      "page": 30,
+      "id": "27a",
+      "section": "钱到底怎么算",
+      "title": "每天能卖够单，为什么还是可能亏？",
+      "continuation": false
+    },
+    {
+      "page": 31,
+      "id": 28,
+      "section": "三年会怎样",
+      "title": "生意做三年，钱会多还是少？",
+      "continuation": false
+    },
+    {
+      "page": 32,
+      "id": "28a",
+      "section": "三年会怎样",
+      "title": "同样开三年，哪一年才缓过来？",
+      "continuation": false
+    },
+    {
+      "page": 33,
+      "id": 29,
+      "section": "三年会怎样",
+      "title": "回本到底是回哪一笔钱？",
+      "continuation": false
+    },
+    {
+      "page": 34,
+      "id": 30,
+      "section": "三年会怎样",
+      "title": "钱会不会在开店中途用完？",
+      "continuation": false
+    },
+    {
+      "page": 35,
+      "id": "30a",
+      "section": "三年会怎样",
+      "title": "三年里，账户上的钱怎样变化？",
+      "continuation": false
+    },
+    {
+      "page": 36,
+      "id": 31,
+      "section": "三年会怎样",
+      "title": "如果同行降价、客人变少呢？",
+      "continuation": false
+    },
+    {
+      "page": 37,
+      "id": 32,
+      "section": "三年会怎样",
+      "title": "还没回本，就关门会怎样？",
+      "continuation": false
+    },
+    {
+      "page": 38,
+      "id": 33,
+      "section": "开始前怎么试",
+      "title": "先做7天调研，不要先交一大笔转让费",
+      "continuation": false
+    },
+    {
+      "page": 39,
+      "id": 34,
+      "section": "开始前怎么试",
+      "title": "用一段小规模试营业，验证这笔账",
+      "continuation": false
+    },
+    {
+      "page": 40,
+      "id": 35,
+      "section": "开始前怎么试",
+      "title": "最后，你现在可以做一个更好的决定",
+      "continuation": false
+    },
+    {
+      "page": 41,
+      "id": 36,
+      "section": "资料说明",
+      "title": "这份报告，哪部分是真实的？",
+      "continuation": false
+    },
+    {
+      "page": 42,
+      "id": "comp1",
+      "section": "查资料",
+      "title": "找到的商户记录（1）",
+      "continuation": false
+    },
+    {
+      "page": 43,
+      "id": "comp2",
+      "section": "查资料",
+      "title": "找到的商户记录（2）",
+      "continuation": false
+    },
+    {
+      "page": 44,
+      "id": "comp3",
+      "section": "查资料",
+      "title": "找到的商户记录（3）",
+      "continuation": false
+    },
+    {
+      "page": 45,
+      "id": "rent1",
+      "section": "查资料",
+      "title": "全部租赁挂牌线索（1）",
+      "continuation": false
+    },
+    {
+      "page": 46,
+      "id": "rent2",
+      "section": "查资料",
+      "title": "全部租赁挂牌线索（2）",
+      "continuation": false
+    },
+    {
+      "page": 47,
+      "id": "photo1",
+      "section": "查资料",
+      "title": "照片从哪里来？（1）",
+      "continuation": false
+    },
+    {
+      "page": 48,
+      "id": "photo2",
+      "section": "查资料",
+      "title": "照片从哪里来？（2）",
+      "continuation": false
+    },
+    {
+      "page": 49,
+      "id": "photo3",
+      "section": "查资料",
+      "title": "照片从哪里来？（3）",
+      "continuation": false
+    },
+    {
+      "page": 50,
+      "id": "src1",
+      "section": "查资料",
+      "title": "公开资料索引（1）",
+      "continuation": false
+    },
+    {
+      "page": 51,
+      "id": "src2",
+      "section": "查资料",
+      "title": "公开资料索引（2）",
+      "continuation": false
+    },
+    {
+      "page": 52,
+      "id": "src3",
+      "section": "查资料",
+      "title": "公开资料索引（3）",
+      "continuation": false
+    },
+    {
+      "page": 53,
+      "id": "src4",
+      "section": "查资料",
+      "title": "公开资料索引（4）",
+      "continuation": false
+    },
+    {
+      "page": 54,
+      "id": "src5",
+      "section": "查资料",
+      "title": "公开资料索引（5）",
+      "continuation": false
+    },
+    {
+      "page": 55,
+      "id": "src6",
+      "section": "查资料",
+      "title": "公开资料索引（6）",
+      "continuation": false
+    },
+    {
+      "page": 56,
+      "id": "src7",
+      "section": "查资料",
+      "title": "公开资料索引（7）",
+      "continuation": false
+    },
+    {
+      "page": 57,
+      "id": "src8",
+      "section": "查资料",
+      "title": "公开资料索引（8）",
+      "continuation": false
+    },
+    {
+      "page": 58,
+      "id": "src9",
+      "section": "查资料",
+      "title": "公开资料索引（9）",
+      "continuation": false
+    },
+    {
+      "page": 59,
+      "id": "src10",
+      "section": "查资料",
+      "title": "公开资料索引（10）",
+      "continuation": false
+    },
+    {
+      "page": 60,
+      "id": "src11",
+      "section": "查资料",
+      "title": "公开资料索引（11）",
+      "continuation": false
+    }
+  ],
+  "photo_files": [
+    "qiaohe_street.jpg",
+    "sandwich_combo.jpg",
+    "qiaohe_noodle.jpg",
+    "tongtai_booth.jpg",
+    "qiaohe_restaurants.jpg",
+    "qiaohe_market.jpg",
+    "tongtai_snack.jpg",
+    "qiaohe_congee.jpg",
+    "generated_shared.jpg",
+    "baozi_food.jpg"
+  ],
+  "section_pages": {
+    "封面": 0,
+    "先看这里": 1,
+    "阅读地图": 2,
+    "看懂这个地方": 3,
+    "看看同行": 7,
+    "选择做什么": 10,
+    "怎么经营": 18,
+    "签约之前": 21,
+    "钱到底怎么算": 23,
+    "三年会怎样": 31,
+    "开始前怎么试": 38,
+    "资料说明": 41,
+    "查资料": 42
+  }
+}
