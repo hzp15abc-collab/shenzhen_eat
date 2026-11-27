@@ -38,3 +38,30 @@
 
 结果：28/28，全部验证通过。
 
+## 最终交付批次
+
+项目主页、任务、环境说明、正式设计与 PDF 源码、Mac 端接手说明、迭代记录及独立审查脚本全部成功回读验证。
+
+| 路径 | 原始字节 | 提交 SHA | 已验证 blob SHA |
+|---|---:|---|---|
+| `PROJECT_HOME.md` | 1421 | `2566821ddf362cb0c274a353c3a79aaab8d5936b` | `f0622fa65e066689e7b219268b47b3b709388efc` |
+| `README.md` | 1852 | `9781d65c762a452dfc4e6d39aae1e1b2dd191fa8` | `793d9386941b10a263377f1bc064e515b8649866` |
+| `v3/PROJECT_HOME.md` | 2179 | `488908b5347f42d9b127dcdc0cb95759f1f719d1` | `5337b75a797a692096b85624cc6e9fd6fdcd94ed` |
+| `v3/TASKS.md` | 1139 | `a88e23947fea4d7a03a1c093d14833bb6feb4d5d` | `d48eb3e0c3fac81321e0e972886465b2cb2be031` |
+| `v3/tooling/ENVIRONMENT.md` | 1085 | `fe23c9047fa9cf120d4eb4825a8fa6d0e435c1ac` | `f6833741035060d543cb23131f0c4a2d9d90980d` |
+| `v3/design/build_report_v3.py` | 44935 | `a0c348c7a9355feeba1ba8e7698d461ed9ae376a` | `92c1004afd9b7274c431c8bfa08ebc4e74827d6e` |
+| `v3/design/pdf_engine.py` | 12716 | `a6bd30a2d186bb61fd7ba1e6c6f78afe6921fafe` | `1c4d65b311ac462bd9129f433af1532049beb1ad` |
+| `v3/design/FINAL_DESIGN.md` | 1855 | `0609ae37a054217439b78feada1f74801b42509b` | `276feab4a9324755d4abff840b3b1cd76b85340e` |
+| `v3/tooling/ITERATION_LOG.md` | 3096 | `f49026fe14bb64a32b507240b26c7e392d01bfec` | `f9a495ef846786c12f5d8f7733e0d001d720886c` |
+| `v3/HANDOFF_MAC.md` | 2111 | `7cdc665e527222e758d4b8be1d98df3b08f5a4da` | `b6040e988d7f37e90285672067197ce760086c9f` |
+| `v3/README.md` | 1162 | `a2a0561cc548e99e68ccc779428c8326212841b8` | `460f8f3a13eeab1ba689883266c1217de455f227` |
+| `v3/reviews/INDEPENDENT_REVIEW_V3.md` | 12614 | `2e7341896cabe7fcf2c65570768baadcc07733d4` | `bfe668fead15619b59d006fdb1d227837b1f9721` |
+| `v3/reviews/independent_numeric_audit.py` | 14789 | `6493f46f249101ebb34dd345958ea684948eae8b` | `2d7baab05a6cb9870792d77037b8010b56983e1c` |
+| `v3/reviews/independent_pdf_audit.py` | 2852 | `e04cf74227328cd7f58b370578a11873eb341c77` | `1f05f62deda65bbad5c4cbeeebe2fa66a32919af` |
+| `v3/reviews/independent_report_values.py` | 4692 | `39091424183b756c7ecad57add0c1c51b0c37649` | `f585eba4cb360b151a25dbc9e352fd10d1c37f8e` |
+| `v3/reviews/numeric_audit_results.txt` | 4679 | `3014053b305b12712cc7b41d47523fee972e81f9` | `0bd8e005cc41d7a3a976e558a7a8e4c3420fcefd` |
+
+本批次：16/16，累计两批次 44/44 验证通过。初始目标、流程等总控同步不另计。
+交付 PDF 与 ZIP 已先行冻结；未为追加本同步记录而修改交付物。
+
+
