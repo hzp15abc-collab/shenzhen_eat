@@ -1,3 +1,8 @@
 # 项目主页
-使命：以数据和模型清晰呈现创业选择的条件、收益、代价。状态：已锁定目标，开始研究。
-启动入口：GOALS.md → AGENTS.md → WORKFLOW.md → ACCEPTANCE.md → TASKS.md。研究产物目录 research/、evidence/、tooling/、models/、reviews/、design/、deliverables/。以公开证据及假设情景为限；未能核实的数据不是实测。
+使命：用数据和模型呈现创业选择的条件、收益、代价。
+2026-11-27：桌面研究与投资情景分析完成，独立复核通过；已生成36页PDF，覆盖17模块、26条商户候选、8条核心+3条扩展租赁线索、5种经营原型、15种情景、540个月度计算记录、62项敏感度测试和64个来源链接。
+
+研究入口：GOALS.md → AGENTS.md → WORKFLOW.md → ACCEPTANCE.md → TASKS.md。
+原始研究：research/；证据表 evidence/；工具实验 tooling/；模型 models/；监督验收 reviews/；报告源代码及图像 design/。
+
+数据状态：当地家庭收入、在校早餐比例、实际门店销售/客流、真实租金合同和共享合作条件未实测。模型参数仅用于场景比较，不能宣称真实投资回报。后续若取得合法实测，修订参数、复算并更新报告。
