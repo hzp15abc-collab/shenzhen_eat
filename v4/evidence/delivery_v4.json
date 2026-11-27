@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-27",
+  "status": "official terms structure, no local platform merchant contract or actual local delivery menu retrieved",
+  "route_tests": [
+    {
+      "tool": "web search",
+      "test": "新和/福海 早餐+美团/闪购菜单/价格",
+      "actual": "unreliable articles, merchant registrations, coupon marketing; zero valid local dual-platform delivery menus",
+      "usable": false
+    },
+    {
+      "tool": "Exa",
+      "test": "2025–2026 local menu and price",
+      "actual": "Trip Moments local review with 21/3/8 yuan item prices, not delivery. Prior evidence reused with clearer scope.",
+      "usable": true,
+      "scope": "historical/undated public customer report only",
+      "url": "https://hk.trip.com/moments/theme/destination-bao-an-district-2015100-food-993052/"
+    },
+    {
+      "tool": "Firecrawl search",
+      "test": "深圳 福海街道 新和社区 新和三区 早餐 美团 外卖 菜单 淘宝闪购 价格",
+      "actual": "platform news and consumer landing page, no local menu",
+      "usable": false
+    },
+    {
+      "tool": "Firecrawl live mobile scrape",
+      "url": "https://waimai.meituan.com/",
+      "actual": "200 public page. 我要点外卖 links only app download https://waimai.meituan.com/mobile/download/default",
+      "usable": true,
+      "scope": "public access boundary, not local menu"
+    },
+    {
+      "tool": "Firecrawl live mobile scrape",
+      "url": "https://www.ele.me/",
+      "resolved_url": "https://taobaoshangou.ele.me/",
+      "actual": "200 public homepage/news/merchant ecosystem, no local item catalogue",
+      "usable": true,
+      "scope": "public access boundary, not local menu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "F4D01",
+      "url": "https://rules-center.meituan.com/m/detail/guize/1079?activeRule=1",
+      "date": "2023-11-07",
+      "fact": "招商规则10/11条：实际收费类别、费率看商家中心，保证金按经营要求。",
+      "applicability": "官方；无目标店合同"
+    },
+    {
+      "id": "F4D02",
+      "url": "https://123.meituan.com/serve/web/business/167?moduleMenuCode=0",
+      "fact": "免费开店申请；实际完成订单服务费因地区、品类、配送方案差异。",
+      "applicability": "官方FAQ；不等于所有收费和保证金为零"
+    },
+    {
+      "id": "F4D03",
+      "url": "https://www.meituan.com/news/NN241225051008799",
+      "date": "2024-12-25",
+      "fact": "历史全国技术费披露6–8%，配送另列。",
+      "applicability": "历史参照，不是当地2026费率"
+    },
+    {
+      "id": "F4D04",
+      "url": "https://terms.alicdn.com/legal-agreement/terms/b_platform_service_agreement/20230320103053372/20230320103053372.html",
+      "fact": "官旗范本列交易、履约、物流、其他；费率/计费基础/增值项按后台合同。",
+      "applicability": "结构参照；官旗范本不套小店"
+    },
+    {
+      "id": "F4D05",
+      "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_other/suit_bu1_other202111251946_14275.html",
+      "fact": "连锁范本列基础交易、支付、选用服务；履约基础及加价，物流另计。",
+      "applicability": "连锁合同范本；无小店实际费率"
+    },
+    {
+      "id": "F4D06",
+      "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_other/suit_bu1_other202111252158_23065.html",
+      "fact": "约定配送方案而非单一费率；骑手接单取货后履约费用通常发生，依规则退款与否。",
+      "applicability": "明确退费风险；核实目标店条款"
+    },
+    {
+      "id": "F4D07",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_d04d512f5ad8470eb61a652c0061dc3a.html",
+      "date": "2026-06-01 effective",
+      "fact": "总局令123号10/11条核实真实经营地址及资质、网店名称和实体招牌；禁止虚假或他人资质。",
+      "applicability": "E共享线上可行性先决门槛"
+    },
+    {
+      "id": "F4D08",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/jjjzs/art/2025/art_e4eca064b20843c6a97ead0c94fda00e.html",
+      "date": "2025-08-02",
+      "fact": "收费合规指南，公开明细、优惠分担，推广自愿。",
+      "applicability": "合规原则，非实际费率"
+    },
+    {
+      "id": "F4D09",
+      "url": "https://www.samr.gov.cn/xw/mtjj/art/2025/art_d5e170c2bc9341e5a8484a48166fd7a7.html",
+      "fact": "外卖国家推荐性标准技术/配送/推广三类收费；规范透明。",
+      "applicability": "费用分类"
+    }
+  ],
+  "baseline_decision": "both platform base unit fee/discount/settlement estimates equal where contract evidence absent; actual local contract not obtained. Meituan base deposit 0 vs Taobao 1000 both scenario guesses. 75% onsite / 25% online, online equal split is model comparison not market share. 30 asymmetric one-platform fee tests separately modeled; platform rank unsupported.",
+  "shared_mode_gate": "E onsite/mixed/delivery only meaningful if legal premises, independent valid permit, actual names/address and platform authorization match. No borrowed license."
+}
