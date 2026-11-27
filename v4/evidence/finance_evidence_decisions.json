@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-27",
+  "decisions": [
+    {
+      "id": "F4A01",
+      "domain": "铺面",
+      "source": "https://m.shangpu5.com/zhuanrang/show-16522.html",
+      "fact": "新和32㎡米粉转让广告 3040元/月、42000转让、剩7月；广告刊登时间/当前续租未核。",
+      "grade": "公开卖方详情，不是成交",
+      "canonical": "保持",
+      "model_action": "单独A租金/转让和期限敏感性 A_rent_32m_7mo；到期退出、续约条件分开。"
+    },
+    {
+      "id": "F4A02",
+      "domain": "铺面",
+      "source": "https://m.shangpu5.com/zhuanrang/show-11195.html",
+      "fact": "新福工业园25㎡早餐 2800/月、48000转让、剩12月，卖方称设备齐全。",
+      "grade": "卖方自述",
+      "canonical": "保持",
+      "model_action": "A两项替代；另测经核实2万元资产可替代时，避免双算；不假定可省。"
+    },
+    {
+      "id": "F4A03",
+      "domain": "铺面",
+      "source": "https://www.shangpu5.com/zhuanrang/show-16371.html",
+      "fact": "福园一路76㎡快餐 5985/月、12000转让、剩24月，广告时效未知。",
+      "grade": "相邻卖方详情",
+      "canonical": "保持",
+      "model_action": "D两项替代，非该铺完整真实成本。"
+    },
+    {
+      "id": "F4A04",
+      "domain": "铺面",
+      "source": "https://sz.sydc.anjuke.com/sp-zu/dt1003-hy9-px2-pv1-ptss15/",
+      "fact": "新和三区60㎡ 2580/月，餐饮可明火、转让面议；详情遇验证码。",
+      "grade": "公开C级索引；同条多索引不独立",
+      "canonical": "保持",
+      "model_action": "范围线索；无法判断实际转让和面积条件，不更新标准租金。"
+    },
+    {
+      "id": "F4A05",
+      "domain": "共享时段",
+      "source": "https://finance.sina.com.cn/tech/roll/2024-11-07/doc-incvfpzf7705577.shtml",
+      "fact": "深圳民治2024案例主租13000＋午晚分租6000，早餐主租实际负担7000；另有共租方退场问题。",
+      "grade": "外区报道，非新和本地合同",
+      "canonical": "保持",
+      "model_action": "E固定场地费由3000升7000或承担整租13000的条件单因素测试，仍保留基准分成，非案例完整账。"
+    },
+    {
+      "id": "F4A06",
+      "domain": "E许可与平台",
+      "source": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_d04d512f5ad8470eb61a652c0061dc3a.html",
+      "fact": "2026-06-01总局令123号，真实门牌、实际经营地址、资质核验；不允许借他人资质。深圳市监局2026-04-09答复原则一地一证（https://www.sz.gov.cn/hdjlpt/detail?pid=3397633&via=pc）。",
+      "grade": "官方现行规章与地方答复",
+      "canonical": "保持",
+      "model_action": "E所有配置合法场地、主体许可、合同成立才可比较；线上实际资质及平台审核。"
+    },
+    {
+      "id": "F4C01",
+      "domain": "消费替代",
+      "source": "https://static.nfnews.com/content/202505/08/c11268879.html?enterColumnId=13298",
+      "fact": "2025-05-08福海中粮机器人科技园500餐位，10/12/14元配餐；非新和外部消费者，不等于门店售价。",
+      "grade": "同街道报道",
+      "canonical": "保持",
+      "model_action": "D现场均价16→14/12且食材绝对成本不变；潜在需求−20%独立测试。"
+    },
+    {
+      "id": "F4C02",
+      "domain": "B可比价",
+      "source": "https://www.jiemian.com/article/15272717.html",
+      "fact": "2026-10-30深圳其他园区7-Eleven饭团7.5元、套餐12.9/14.9元。",
+      "grade": "跨区报道；品牌与规格差异",
+      "canonical": "保持",
+      "model_action": "支持B价带候选，不取代标准客单或销量。"
+    },
+    {
+      "id": "F4C03",
+      "domain": "学校、食堂",
+      "source": "v4/research/CUSTOMERS_PRODUCTS.md CP01/CP03",
+      "fact": "福新小学2026预算出现自营食堂开支；新和某企业2024核查报告外包食堂。两边早餐供给比例/参与人数未知。",
+      "grade": "官方预算/企业核查；无本地购买数据",
+      "canonical": "保持",
+      "model_action": "存在替代而非新增客流；不以学生数量乘转化率、不修改需求。"
+    },
+    {
+      "id": "F4C04",
+      "domain": "本地菜单价",
+      "source": "https://drivethruindex.com/restaurants/cn/gd/%E6%B7%B1%E5%9C%B3/kfc-SZ2103",
+      "fact": "新和桥新路KFC 83项；桥头必胜客98项（相邻）第三方价格观察者称品牌App自提价；2026-11-26菜单正文日期，11-27直接HTML及CSV核实。",
+      "grade": "单家第三方自提公开观察、不是美团/闪购或成交",
+      "canonical": "保持",
+      "model_action": "可作商品带和替代竞争；单品非平均客单，不直接修改模型。",
+      "alternate_source": "https://drivethruindex.com/restaurants/cn/gd/%E6%B7%B1%E5%9C%B3/pizza-hut-GZ5650"
+    },
+    {
+      "id": "F4D10",
+      "domain": "双平台",
+      "source": "v4/research/DELIVERY_FINANCE_V4.md",
+      "fact": "实时公开官网测试未有本地菜单，合同具体费率/券/配送/账期未知。",
+      "grade": "工具实际测试/官文结构",
+      "canonical": "保持",
+      "model_action": "两平台基准同价/同损益的模拟，不以消费者券推断商家承担；30个单平台增费独立测试。"
+    },
+    {
+      "id": "F4M01",
+      "domain": "算式方法修复",
+      "source": "v3/models/model_v3.py unit/get_market/sensitivity_rows",
+      "fact": "旧单因素调低基准售价会连动食材人民币成本，导致10%降价损失被低估。标准135组不受此缺陷影响。",
+      "grade": "源码与独立重算",
+      "canonical": "135个主情景保持不变",
+      "model_action": "V4重算5个10%降价单因素时固定绝对食材成本；保留差异记录。"
+    },
+    {
+      "id": "F4M02",
+      "domain": "线上敏感标签",
+      "source": "v3/models/model_v3.py sensitivity_rows",
+      "fact": "mixed线上份额0.25改0.45、线下0.75维持，潜在总订单增加0.20，即线上量比原增加80%，非线上订单增加20%。",
+      "grade": "源码核对",
+      "canonical": "保持",
+      "model_action": "V4更清楚改标签为总潜在订单加20%(全为线上)，不暗示真实增量。"
+    },
+    {
+      "id": "F4A07",
+      "domain": "排烟装修",
+      "source": "https://www.zgtlhb.com/news/qyxw/61622.html",
+      "fact": "2026-05供应商营销页50㎡以下排烟设备与安装8000–12000，V3 A轻改5000预算。工序和现场不同，无成交。",
+      "grade": "供应商营销页，条件范围非正式报价",
+      "canonical": "保持",
+      "model_action": "A_full_exhaust_low/high 如果需全换，替换原5k而非叠加，开业+3k/7k；确认许可、现场分类。"
+    },
+    {
+      "id": "F4A08",
+      "domain": "有薪雇员成本",
+      "source": "v4/evidence/property_ops_v4.json W01–W06",
+      "fact": "福永相关招聘列表/公开招聘详情可见4000–4500学徒、4000–5000打荷；招聘工资与完全雇主成本不同，真实社保/补贴/餐宿未获签约。",
+      "grade": "真实公开招聘信息，时间与岗位状态按原证据",
+      "canonical": "保留5,800/7,200/8,800预算",
+      "model_action": "不把广告毛薪直接当全部雇主成本；对D专业厨师保留11,600完全成本独立重算。"
+    }
+  ],
+  "summary": "未取得目标店签租、已审资产清单、实际成交订单或双平台合同，不改五种标准情景的任何真实输入；价格压力、实际挂牌条件、E租赁风险均通过单独测试复算而非当作全部市场的事实。"
+}
