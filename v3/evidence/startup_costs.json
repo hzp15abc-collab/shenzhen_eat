@@ -1,0 +1,2945 @@
+{
+  "A": {
+    "low": {
+      "area_m2": 20,
+      "fitout": 14000,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 20,
+          "unit_price": 350,
+          "subtotal": 7000
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 3000,
+          "subtotal": 3000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 1000,
+          "subtotal": 1000
+        }
+      ],
+      "equipment": 14450,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 1,
+          "unit_price": 1600,
+          "subtotal": 1600,
+          "source": "K04"
+        },
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 1,
+          "unit_price": 2800,
+          "subtotal": 2800,
+          "source": "K05,K06"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 1300,
+          "subtotal": 1300,
+          "source": "K06"
+        },
+        {
+          "name": "商用电磁炉/加热灶",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "K07"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 1,
+          "unit_price": 1800,
+          "subtotal": 1800,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 1,
+          "unit_price": 650,
+          "subtotal": 650,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 1,
+          "unit_price": 600,
+          "subtotal": 600,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 1000,
+          "subtotal": 1000,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 500,
+          "subtotal": 500,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 300,
+          "subtotal": 300,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 700,
+          "subtotal": 700,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 1350,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 2,
+          "orders_day": 100,
+          "unit_price": 2.5,
+          "subtotal": 500
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 400
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 450
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 1900,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 500
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 400
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 500
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 500
+        }
+      ],
+      "delivery_setup": 1500,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 400
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 400
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 700
+        }
+      ],
+      "property_fee": 200,
+      "utilities_fixed": 650,
+      "other_fixed": 450,
+      "marketing_fixed": 200,
+      "equipment_capacity_day": 260,
+      "setup_context": "已营业餐饮/轻食铺少量改造；剩余设备或装修须扣除重置预算、押金",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    },
+    "base": {
+      "area_m2": 30,
+      "fitout": 33000,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 30,
+          "unit_price": 500,
+          "subtotal": 15000
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 8000,
+          "subtotal": 8000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 3000,
+          "subtotal": 3000
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 5000,
+          "subtotal": 5000
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 2000,
+          "subtotal": 2000
+        }
+      ],
+      "equipment": 22500,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 1,
+          "unit_price": 1900,
+          "subtotal": 1900,
+          "source": "K04"
+        },
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 1,
+          "unit_price": 3400,
+          "subtotal": 3400,
+          "source": "K05,K06"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 1600,
+          "subtotal": 1600,
+          "source": "K06"
+        },
+        {
+          "name": "商用电磁炉/加热灶",
+          "qty": 1,
+          "unit_price": 2200,
+          "subtotal": 2200,
+          "source": "K07"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 1,
+          "unit_price": 2600,
+          "subtotal": 2600,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 2,
+          "unit_price": 1100,
+          "subtotal": 2200,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 1,
+          "unit_price": 900,
+          "subtotal": 900,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 600,
+          "subtotal": 600,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 1800,
+          "subtotal": 1800,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 2815,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 3,
+          "orders_day": 150,
+          "unit_price": 2.7,
+          "subtotal": 1215
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 800
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 800
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 3300,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 800
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 700
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 800
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 1000
+        }
+      ],
+      "delivery_setup": 2600,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 600
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 600
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 1400
+        }
+      ],
+      "property_fee": 360,
+      "utilities_fixed": 950,
+      "other_fixed": 650,
+      "marketing_fixed": 350,
+      "equipment_capacity_day": 390,
+      "setup_context": "空置第二手餐饮铺，基础给排水电力合适，常规新做门面、工作区和采购设备；租约及合规需过关",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    },
+    "high": {
+      "area_m2": 40,
+      "fitout": 60000,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 40,
+          "unit_price": 650,
+          "subtotal": 26000
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 14000,
+          "subtotal": 14000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 5500,
+          "subtotal": 5500
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 10000,
+          "subtotal": 10000
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 4500,
+          "subtotal": 4500
+        }
+      ],
+      "equipment": 54600,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 2,
+          "unit_price": 2800,
+          "subtotal": 5600,
+          "source": "K04"
+        },
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 2,
+          "unit_price": 5200,
+          "subtotal": 10400,
+          "source": "K05,K06"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 2,
+          "unit_price": 2400,
+          "subtotal": 4800,
+          "source": "K06"
+        },
+        {
+          "name": "商用电磁炉/加热灶",
+          "qty": 2,
+          "unit_price": 3200,
+          "subtotal": 6400,
+          "source": "K07"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 1,
+          "unit_price": 3500,
+          "subtotal": 3500,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 2,
+          "unit_price": 1800,
+          "subtotal": 3600,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 2,
+          "unit_price": 1500,
+          "subtotal": 3000,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 2500,
+          "subtotal": 2500,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 2,
+          "unit_price": 2500,
+          "subtotal": 5000,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 2400,
+          "subtotal": 2400,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 5000,
+          "subtotal": 5000,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 4380,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 3,
+          "orders_day": 220,
+          "unit_price": 3.0,
+          "subtotal": 1980
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 1200
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 1200
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 5900,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 1200
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 1000
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 1500
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 2200
+        }
+      ],
+      "delivery_setup": 4200,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 1000
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 1000
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 2200
+        }
+      ],
+      "property_fee": 600,
+      "utilities_fixed": 1400,
+      "other_fixed": 900,
+      "marketing_fixed": 500,
+      "equipment_capacity_day": 550,
+      "setup_context": "需较大水电、排风及门面改造，标准新设备；仍不含整栋建筑的重大工程",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    }
+  },
+  "B": {
+    "low": {
+      "area_m2": 18,
+      "fitout": 12500,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 18,
+          "unit_price": 350,
+          "subtotal": 6300
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 3000,
+          "subtotal": 3000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 900,
+          "subtotal": 900
+        }
+      ],
+      "equipment": 13400,
+      "equipment_items": [
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 1,
+          "unit_price": 2800,
+          "subtotal": 2800,
+          "source": "K05,K06"
+        },
+        {
+          "name": "冷藏工作台",
+          "qty": 1,
+          "unit_price": 1700,
+          "subtotal": 1700,
+          "source": "K05,K06"
+        },
+        {
+          "name": "三明治压烤/轻食加热机",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800,
+          "source": "推算"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 1,
+          "unit_price": 1800,
+          "subtotal": 1800,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 1,
+          "unit_price": 650,
+          "subtotal": 650,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 1,
+          "unit_price": 600,
+          "subtotal": 600,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 1000,
+          "subtotal": 1000,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 300,
+          "subtotal": 300,
+          "source": "推算"
+        },
+        {
+          "name": "复热设备",
+          "qty": 1,
+          "unit_price": 650,
+          "subtotal": 650,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 500,
+          "subtotal": 500,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 600,
+          "subtotal": 600,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 1620,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 2,
+          "orders_day": 90,
+          "unit_price": 4.0,
+          "subtotal": 720
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 400
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 500
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 2100,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 500
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 500
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 500
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 600
+        }
+      ],
+      "delivery_setup": 1800,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 400
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 400
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 1000
+        }
+      ],
+      "property_fee": 180,
+      "utilities_fixed": 600,
+      "other_fixed": 450,
+      "marketing_fixed": 200,
+      "equipment_capacity_day": 220,
+      "setup_context": "已营业餐饮/轻食铺少量改造；剩余设备或装修须扣除重置预算、押金",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    },
+    "base": {
+      "area_m2": 28,
+      "fitout": 29000,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 28,
+          "unit_price": 500,
+          "subtotal": 14000
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 7000,
+          "subtotal": 7000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 3500,
+          "subtotal": 3500
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 2500,
+          "subtotal": 2500
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 2000,
+          "subtotal": 2000
+        }
+      ],
+      "equipment": 23100,
+      "equipment_items": [
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 1,
+          "unit_price": 3400,
+          "subtotal": 3400,
+          "source": "K05,K06"
+        },
+        {
+          "name": "冷藏工作台",
+          "qty": 1,
+          "unit_price": 2500,
+          "subtotal": 2500,
+          "source": "K05,K06"
+        },
+        {
+          "name": "三明治压烤/轻食加热机",
+          "qty": 2,
+          "unit_price": 1200,
+          "subtotal": 2400,
+          "source": "推算"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 1600,
+          "subtotal": 1600,
+          "source": "K06"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 1,
+          "unit_price": 2600,
+          "subtotal": 2600,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 1,
+          "unit_price": 1100,
+          "subtotal": 1100,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 1,
+          "unit_price": 900,
+          "subtotal": 900,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 600,
+          "subtotal": 600,
+          "source": "推算"
+        },
+        {
+          "name": "复热设备",
+          "qty": 1,
+          "unit_price": 900,
+          "subtotal": 900,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 1800,
+          "subtotal": 1800,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 3455,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 3,
+          "orders_day": 130,
+          "unit_price": 4.5,
+          "subtotal": 1755
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 700
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 1000
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 3600,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 800
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 800
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 800
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 1200
+        }
+      ],
+      "delivery_setup": 3000,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 800
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 800
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 1400
+        }
+      ],
+      "property_fee": 336,
+      "utilities_fixed": 900,
+      "other_fixed": 650,
+      "marketing_fixed": 400,
+      "equipment_capacity_day": 360,
+      "setup_context": "空置第二手餐饮铺，基础给排水电力合适，常规新做门面、工作区和采购设备；租约及合规需过关",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    },
+    "high": {
+      "area_m2": 38,
+      "fitout": 53700,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 38,
+          "unit_price": 650,
+          "subtotal": 24700
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 13000,
+          "subtotal": 13000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 5500,
+          "subtotal": 5500
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 6500,
+          "subtotal": 6500
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 4000,
+          "subtotal": 4000
+        }
+      ],
+      "equipment": 48900,
+      "equipment_items": [
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 1,
+          "unit_price": 5200,
+          "subtotal": 5200,
+          "source": "K05,K06"
+        },
+        {
+          "name": "冷藏工作台",
+          "qty": 2,
+          "unit_price": 4500,
+          "subtotal": 9000,
+          "source": "K05,K06"
+        },
+        {
+          "name": "三明治压烤/轻食加热机",
+          "qty": 2,
+          "unit_price": 2000,
+          "subtotal": 4000,
+          "source": "推算"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 2400,
+          "subtotal": 2400,
+          "source": "K06"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 1,
+          "unit_price": 3500,
+          "subtotal": 3500,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 2,
+          "unit_price": 1800,
+          "subtotal": 3600,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 2,
+          "unit_price": 1500,
+          "subtotal": 3000,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 2500,
+          "subtotal": 2500,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 2,
+          "unit_price": 2500,
+          "subtotal": 5000,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "复热设备",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 2400,
+          "subtotal": 2400,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 4400,
+          "subtotal": 4400,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 5400,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 3,
+          "orders_day": 180,
+          "unit_price": 5.0,
+          "subtotal": 2700
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 1200
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 1500
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 6100,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 1200
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 1200
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 1500
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 2200
+        }
+      ],
+      "delivery_setup": 4800,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 1200
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 1200
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 2400
+        }
+      ],
+      "property_fee": 570,
+      "utilities_fixed": 1300,
+      "other_fixed": 900,
+      "marketing_fixed": 550,
+      "equipment_capacity_day": 500,
+      "setup_context": "需较大水电、排风及门面改造，标准新设备；仍不含整栋建筑的重大工程",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    }
+  },
+  "C": {
+    "low": {
+      "area_m2": 30,
+      "fitout": 19500,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 30,
+          "unit_price": 350,
+          "subtotal": 10500
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 3500,
+          "subtotal": 3500
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 2200,
+          "subtotal": 2200
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 1800,
+          "subtotal": 1800
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500
+        }
+      ],
+      "equipment": 17650,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 1,
+          "unit_price": 1600,
+          "subtotal": 1600,
+          "source": "K04"
+        },
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 1,
+          "unit_price": 2800,
+          "subtotal": 2800,
+          "source": "K05,K06"
+        },
+        {
+          "name": "冷藏展示柜",
+          "qty": 1,
+          "unit_price": 2500,
+          "subtotal": 2500,
+          "source": "K06"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 1300,
+          "subtotal": 1300,
+          "source": "K06"
+        },
+        {
+          "name": "商用电磁炉/加热灶",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "K07"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 1,
+          "unit_price": 1800,
+          "subtotal": 1800,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 1,
+          "unit_price": 650,
+          "subtotal": 650,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 2,
+          "unit_price": 600,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 1000,
+          "subtotal": 1000,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 500,
+          "subtotal": 500,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 300,
+          "subtotal": 300,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 2644,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 2,
+          "orders_day": 130,
+          "unit_price": 2.9,
+          "subtotal": 754
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 500
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 550
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 40,
+          "units_per_sku": 3,
+          "unit_price": 7,
+          "subtotal": 840
+        }
+      ],
+      "preopening": 2350,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 500
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 500
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 700
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 650
+        }
+      ],
+      "delivery_setup": 1800,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 400
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 400
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 1000
+        }
+      ],
+      "property_fee": 300,
+      "utilities_fixed": 950,
+      "other_fixed": 600,
+      "marketing_fixed": 300,
+      "equipment_capacity_day": 280,
+      "setup_context": "已营业餐饮/轻食铺少量改造；剩余设备或装修须扣除重置预算、押金",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    },
+    "base": {
+      "area_m2": 45,
+      "fitout": 49500,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 45,
+          "unit_price": 500,
+          "subtotal": 22500
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 12000,
+          "subtotal": 12000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 5000,
+          "subtotal": 5000
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 6500,
+          "subtotal": 6500
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 3500,
+          "subtotal": 3500
+        }
+      ],
+      "equipment": 30400,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 2,
+          "unit_price": 1900,
+          "subtotal": 3800,
+          "source": "K04"
+        },
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 1,
+          "unit_price": 3400,
+          "subtotal": 3400,
+          "source": "K05,K06"
+        },
+        {
+          "name": "冷藏展示柜",
+          "qty": 1,
+          "unit_price": 3700,
+          "subtotal": 3700,
+          "source": "K06"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 1600,
+          "subtotal": 1600,
+          "source": "K06"
+        },
+        {
+          "name": "商用电磁炉/加热灶",
+          "qty": 1,
+          "unit_price": 2200,
+          "subtotal": 2200,
+          "source": "K07"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 1,
+          "unit_price": 2600,
+          "subtotal": 2600,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 2,
+          "unit_price": 1100,
+          "subtotal": 2200,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 3,
+          "unit_price": 900,
+          "subtotal": 2700,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 600,
+          "subtotal": 600,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 1800,
+          "subtotal": 1800,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 2000,
+          "subtotal": 2000,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 5548,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 3,
+          "orders_day": 180,
+          "unit_price": 3.2,
+          "subtotal": 1728
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 900
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 1000
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 80,
+          "units_per_sku": 3,
+          "unit_price": 8,
+          "subtotal": 1920
+        }
+      ],
+      "preopening": 4100,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 800
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 800
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 1000
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 1500
+        }
+      ],
+      "delivery_setup": 3200,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 800
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 800
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 1600
+        }
+      ],
+      "property_fee": 540,
+      "utilities_fixed": 1300,
+      "other_fixed": 800,
+      "marketing_fixed": 500,
+      "equipment_capacity_day": 420,
+      "setup_context": "空置第二手餐饮铺，基础给排水电力合适，常规新做门面、工作区和采购设备；租约及合规需过关",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    },
+    "high": {
+      "area_m2": 60,
+      "fitout": 89500,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 60,
+          "unit_price": 650,
+          "subtotal": 39000
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 20000,
+          "subtotal": 20000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 8500,
+          "subtotal": 8500
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 14000,
+          "subtotal": 14000
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 8000,
+          "subtotal": 8000
+        }
+      ],
+      "equipment": 68400,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 2,
+          "unit_price": 2800,
+          "subtotal": 5600,
+          "source": "K04"
+        },
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 2,
+          "unit_price": 5200,
+          "subtotal": 10400,
+          "source": "K05,K06"
+        },
+        {
+          "name": "冷藏展示柜",
+          "qty": 2,
+          "unit_price": 4800,
+          "subtotal": 9600,
+          "source": "K06"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 2,
+          "unit_price": 2400,
+          "subtotal": 4800,
+          "source": "K06"
+        },
+        {
+          "name": "商用电磁炉/加热灶",
+          "qty": 2,
+          "unit_price": 3200,
+          "subtotal": 6400,
+          "source": "K07"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 1,
+          "unit_price": 3500,
+          "subtotal": 3500,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 2,
+          "unit_price": 1800,
+          "subtotal": 3600,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 4,
+          "unit_price": 1500,
+          "subtotal": 6000,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 2500,
+          "subtotal": 2500,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 2,
+          "unit_price": 2500,
+          "subtotal": 5000,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 2400,
+          "subtotal": 2400,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 6200,
+          "subtotal": 6200,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 10050,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 3,
+          "orders_day": 260,
+          "unit_price": 3.5,
+          "subtotal": 2730
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 1400
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 1600
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 120,
+          "units_per_sku": 4,
+          "unit_price": 9,
+          "subtotal": 4320
+        }
+      ],
+      "preopening": 6800,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 1200
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 1200
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 1800
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 2600
+        }
+      ],
+      "delivery_setup": 5200,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 1300
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 1300
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 2600
+        }
+      ],
+      "property_fee": 900,
+      "utilities_fixed": 1800,
+      "other_fixed": 1200,
+      "marketing_fixed": 700,
+      "equipment_capacity_day": 550,
+      "setup_context": "需较大水电、排风及门面改造，标准新设备；仍不含整栋建筑的重大工程",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    }
+  },
+  "D": {
+    "low": {
+      "area_m2": 45,
+      "fitout": 45000,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 45,
+          "unit_price": 500,
+          "subtotal": 22500
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 9000,
+          "subtotal": 9000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 3000,
+          "subtotal": 3000
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 8500,
+          "subtotal": 8500
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 2000,
+          "subtotal": 2000
+        }
+      ],
+      "equipment": 23100,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 1,
+          "unit_price": 1600,
+          "subtotal": 1600,
+          "source": "K04"
+        },
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 1,
+          "unit_price": 2800,
+          "subtotal": 2800,
+          "source": "K05,K06"
+        },
+        {
+          "name": "冷藏工作台",
+          "qty": 1,
+          "unit_price": 1700,
+          "subtotal": 1700,
+          "source": "K05,K06"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 1300,
+          "subtotal": 1300,
+          "source": "K06"
+        },
+        {
+          "name": "多品类专用煎炒设备组",
+          "qty": 1,
+          "unit_price": 2200,
+          "subtotal": 2200,
+          "source": "K07"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 1,
+          "unit_price": 1800,
+          "subtotal": 1800,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 2,
+          "unit_price": 650,
+          "subtotal": 1300,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 2,
+          "unit_price": 600,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 1000,
+          "subtotal": 1000,
+          "source": "K08"
+        },
+        {
+          "name": "冷藏展示柜",
+          "qty": 1,
+          "unit_price": 2500,
+          "subtotal": 2500,
+          "source": "K06"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 2,
+          "unit_price": 800,
+          "subtotal": 1600,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 500,
+          "subtotal": 500,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 300,
+          "subtotal": 300,
+          "source": "推算"
+        },
+        {
+          "name": "桌椅/食客区家具组",
+          "qty": 1,
+          "unit_price": 1000,
+          "subtotal": 1000,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 1100,
+          "subtotal": 1100,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 2936,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 2,
+          "orders_day": 160,
+          "unit_price": 4.8,
+          "subtotal": 1536
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 700
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 700
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 3500,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 800
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 700
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 1000
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 1000
+        }
+      ],
+      "delivery_setup": 2500,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 600
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 600
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 1300
+        }
+      ],
+      "property_fee": 450,
+      "utilities_fixed": 1500,
+      "other_fixed": 800,
+      "marketing_fixed": 350,
+      "equipment_capacity_day": 220,
+      "setup_context": "已营业餐饮/轻食铺少量改造；剩余设备或装修须扣除重置预算、押金",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    },
+    "base": {
+      "area_m2": 70,
+      "fitout": 105000,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 70,
+          "unit_price": 650,
+          "subtotal": 45500
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 24000,
+          "subtotal": 24000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 8000,
+          "subtotal": 8000
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 20000,
+          "subtotal": 20000
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 7500,
+          "subtotal": 7500
+        }
+      ],
+      "equipment": 52200,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 2,
+          "unit_price": 1900,
+          "subtotal": 3800,
+          "source": "K04"
+        },
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 2,
+          "unit_price": 3400,
+          "subtotal": 6800,
+          "source": "K05,K06"
+        },
+        {
+          "name": "冷藏工作台",
+          "qty": 1,
+          "unit_price": 2500,
+          "subtotal": 2500,
+          "source": "K05,K06"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 1600,
+          "subtotal": 1600,
+          "source": "K06"
+        },
+        {
+          "name": "多品类专用煎炒设备组",
+          "qty": 1,
+          "unit_price": 4000,
+          "subtotal": 4000,
+          "source": "K07"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 2,
+          "unit_price": 2600,
+          "subtotal": 5200,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 3,
+          "unit_price": 1100,
+          "subtotal": 3300,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 3,
+          "unit_price": 900,
+          "subtotal": 2700,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "K08"
+        },
+        {
+          "name": "冷藏展示柜",
+          "qty": 1,
+          "unit_price": 3700,
+          "subtotal": 3700,
+          "source": "K06"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 2,
+          "unit_price": 1500,
+          "subtotal": 3000,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 600,
+          "subtotal": 600,
+          "source": "推算"
+        },
+        {
+          "name": "独立冷冻柜",
+          "qty": 1,
+          "unit_price": 3500,
+          "subtotal": 3500,
+          "source": "K05"
+        },
+        {
+          "name": "桌椅/食客区家具组",
+          "qty": 2,
+          "unit_price": 2000,
+          "subtotal": 4000,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 1,
+          "unit_price": 1800,
+          "subtotal": 1800,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 3400,
+          "subtotal": 3400,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 6750,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 3,
+          "orders_day": 250,
+          "unit_price": 5.8,
+          "subtotal": 4350
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 1100
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 1300
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 6400,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 1200
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 1200
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 1600
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 2400
+        }
+      ],
+      "delivery_setup": 4500,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 1100
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 1100
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 2300
+        }
+      ],
+      "property_fee": 840,
+      "utilities_fixed": 2500,
+      "other_fixed": 1300,
+      "marketing_fixed": 650,
+      "equipment_capacity_day": 420,
+      "setup_context": "空置第二手餐饮铺，基础给排水电力合适，常规新做门面、工作区和采购设备；租约及合规需过关",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    },
+    "high": {
+      "area_m2": 95,
+      "fitout": 196750,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 95,
+          "unit_price": 850,
+          "subtotal": 80750
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 40000,
+          "subtotal": 40000
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 14000,
+          "subtotal": 14000
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 45000,
+          "subtotal": 45000
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 17000,
+          "subtotal": 17000
+        }
+      ],
+      "equipment": 125000,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 2,
+          "unit_price": 2800,
+          "subtotal": 5600,
+          "source": "K04"
+        },
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 2,
+          "unit_price": 5200,
+          "subtotal": 10400,
+          "source": "K05,K06"
+        },
+        {
+          "name": "冷藏工作台",
+          "qty": 2,
+          "unit_price": 4500,
+          "subtotal": 9000,
+          "source": "K05,K06"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 2,
+          "unit_price": 2400,
+          "subtotal": 4800,
+          "source": "K06"
+        },
+        {
+          "name": "多品类专用煎炒设备组",
+          "qty": 2,
+          "unit_price": 6500,
+          "subtotal": 13000,
+          "source": "K07"
+        },
+        {
+          "name": "清洗水槽组",
+          "qty": 2,
+          "unit_price": 3500,
+          "subtotal": 7000,
+          "source": "K05,K06"
+        },
+        {
+          "name": "不锈钢工作台",
+          "qty": 4,
+          "unit_price": 1800,
+          "subtotal": 7200,
+          "source": "K05,K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 4,
+          "unit_price": 1500,
+          "subtotal": 6000,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 2,
+          "unit_price": 2500,
+          "subtotal": 5000,
+          "source": "K08"
+        },
+        {
+          "name": "冷藏展示柜",
+          "qty": 2,
+          "unit_price": 4800,
+          "subtotal": 9600,
+          "source": "K06"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 3,
+          "unit_price": 2500,
+          "subtotal": 7500,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 2,
+          "unit_price": 1200,
+          "subtotal": 2400,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "独立冷冻柜",
+          "qty": 2,
+          "unit_price": 4800,
+          "subtotal": 9600,
+          "source": "K05"
+        },
+        {
+          "name": "桌椅/食客区家具组",
+          "qty": 3,
+          "unit_price": 3500,
+          "subtotal": 10500,
+          "source": "推算"
+        },
+        {
+          "name": "餐具消毒/清洁设施",
+          "qty": 2,
+          "unit_price": 2400,
+          "subtotal": 4800,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 11400,
+          "subtotal": 11400,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 10230,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 3,
+          "orders_day": 340,
+          "unit_price": 6.5,
+          "subtotal": 6630
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 1600
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 2000
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 10100,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 1800
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 1800
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 2500
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 4000
+        }
+      ],
+      "delivery_setup": 7200,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 1800
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 1800
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 3600
+        }
+      ],
+      "property_fee": 1425,
+      "utilities_fixed": 3800,
+      "other_fixed": 1800,
+      "marketing_fixed": 1000,
+      "equipment_capacity_day": 600,
+      "setup_context": "需较大水电、排风及门面改造，标准新设备；仍不含整栋建筑的重大工程",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    }
+  },
+  "E": {
+    "low": {
+      "area_m2": 8,
+      "fitout": 2000,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 8,
+          "unit_price": 0,
+          "subtotal": 0
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 0,
+          "subtotal": 0
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 500,
+          "subtotal": 500
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 0,
+          "subtotal": 0
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500
+        }
+      ],
+      "equipment": 4200,
+      "equipment_items": [
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 1300,
+          "subtotal": 1300,
+          "source": "K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 1,
+          "unit_price": 600,
+          "subtotal": 600,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 1000,
+          "subtotal": 1000,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 1,
+          "unit_price": 800,
+          "subtotal": 800,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 300,
+          "subtotal": 300,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 200,
+          "subtotal": 200,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 892,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 2,
+          "orders_day": 70,
+          "unit_price": 2.8,
+          "subtotal": 392
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 200
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 300
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 1100,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 300
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 300
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 300
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 200
+        }
+      ],
+      "delivery_setup": 1000,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 200
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 200
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 600
+        }
+      ],
+      "property_fee": 0,
+      "utilities_fixed": 250,
+      "other_fixed": 250,
+      "marketing_fixed": 100,
+      "equipment_capacity_day": 160,
+      "setup_context": "合规分时使用既有空间和合同内主设施；改造仅限交接卫生与可撤走专用区装置",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    },
+    "base": {
+      "area_m2": 12,
+      "fitout": 5000,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 12,
+          "unit_price": 0,
+          "subtotal": 0
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 0,
+          "subtotal": 0
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 1000,
+          "subtotal": 1000
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 0,
+          "subtotal": 0
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 4000,
+          "subtotal": 4000
+        }
+      ],
+      "equipment": 8600,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 1,
+          "unit_price": 1900,
+          "subtotal": 1900,
+          "source": "K04"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 1600,
+          "subtotal": 1600,
+          "source": "K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 1,
+          "unit_price": 900,
+          "subtotal": 900,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 600,
+          "subtotal": 600,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 600,
+          "subtotal": 600,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 1400,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 2,
+          "orders_day": 100,
+          "unit_price": 3.0,
+          "subtotal": 600
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 350
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 450
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 2000,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 500
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 500
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 500
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 500
+        }
+      ],
+      "delivery_setup": 1800,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 400
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 400
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 1000
+        }
+      ],
+      "property_fee": 0,
+      "utilities_fixed": 450,
+      "other_fixed": 350,
+      "marketing_fixed": 200,
+      "equipment_capacity_day": 250,
+      "setup_context": "合规分时使用既有空间和合同内主设施；改造仅限交接卫生与可撤走专用区装置",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    },
+    "high": {
+      "area_m2": 20,
+      "fitout": 10000,
+      "fitout_items": [
+        {
+          "name": "地砖、墙面、吊顶等基础修整",
+          "qty": 20,
+          "unit_price": 0,
+          "subtotal": 0
+        },
+        {
+          "name": "给排水、电路增容及基础安装",
+          "qty": 1,
+          "unit_price": 0,
+          "subtotal": 0
+        },
+        {
+          "name": "门面/招牌",
+          "qty": 1,
+          "unit_price": 2000,
+          "subtotal": 2000
+        },
+        {
+          "name": "排风/油烟及风管改造",
+          "qty": 1,
+          "unit_price": 0,
+          "subtotal": 0
+        },
+        {
+          "name": "现场收尾/交接区卫生隔断及预备",
+          "qty": 1,
+          "unit_price": 8000,
+          "subtotal": 8000
+        }
+      ],
+      "equipment": 21200,
+      "equipment_items": [
+        {
+          "name": "商用蒸制设备",
+          "qty": 1,
+          "unit_price": 2800,
+          "subtotal": 2800,
+          "source": "K04"
+        },
+        {
+          "name": "立式冷藏冷冻柜",
+          "qty": 1,
+          "unit_price": 5200,
+          "subtotal": 5200,
+          "source": "K05,K06"
+        },
+        {
+          "name": "保温售卖设备",
+          "qty": 1,
+          "unit_price": 2400,
+          "subtotal": 2400,
+          "source": "K06"
+        },
+        {
+          "name": "货架及存储单元",
+          "qty": 1,
+          "unit_price": 1500,
+          "subtotal": 1500,
+          "source": "推算"
+        },
+        {
+          "name": "收银机及扫码设备",
+          "qty": 1,
+          "unit_price": 2500,
+          "subtotal": 2500,
+          "source": "K08"
+        },
+        {
+          "name": "刀具、容器、电子秤等成组工具",
+          "qty": 1,
+          "unit_price": 2500,
+          "subtotal": 2500,
+          "source": "推算"
+        },
+        {
+          "name": "封口打包工具",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "热水/饮品设备",
+          "qty": 1,
+          "unit_price": 1200,
+          "subtotal": 1200,
+          "source": "推算"
+        },
+        {
+          "name": "设备运输、就位、调试",
+          "qty": 1,
+          "unit_price": 1900,
+          "subtotal": 1900,
+          "source": "按设备金额的5%/7%/10%估算并取百元"
+        }
+      ],
+      "opening_inventory": 2728,
+      "inventory_items": [
+        {
+          "name": "开业鲜食原料",
+          "days": 3,
+          "orders_day": 140,
+          "unit_price": 3.4,
+          "subtotal": 1428
+        },
+        {
+          "name": "干货及调味品缓冲",
+          "subtotal": 600
+        },
+        {
+          "name": "首批包装、袋、杯、纸品",
+          "subtotal": 700
+        },
+        {
+          "name": "常温零食库存",
+          "sku": 0,
+          "units_per_sku": 0,
+          "unit_price": 0,
+          "subtotal": 0
+        }
+      ],
+      "preopening": 3200,
+      "preopening_items": [
+        {
+          "name": "健康检查及经营准备",
+          "subtotal": 700
+        },
+        {
+          "name": "消毒及卫生用品",
+          "subtotal": 700
+        },
+        {
+          "name": "开业耗材及菜单物料",
+          "subtotal": 800
+        },
+        {
+          "name": "试营业及线下宣传",
+          "subtotal": 1000
+        }
+      ],
+      "delivery_setup": 3000,
+      "delivery_setup_items": [
+        {
+          "name": "菜单拍照及上线物料",
+          "subtotal": 800
+        },
+        {
+          "name": "额外打单/打包工具",
+          "subtotal": 800
+        },
+        {
+          "name": "开通初期引流储备",
+          "subtotal": 1400
+        }
+      ],
+      "property_fee": 0,
+      "utilities_fixed": 700,
+      "other_fixed": 500,
+      "marketing_fixed": 300,
+      "equipment_capacity_day": 340,
+      "setup_context": "合规分时使用既有空间和合同内主设施；改造仅限交接卫生与可撤走专用区装置",
+      "evidence_status": "预算推算，非实时报价；面积与采购数量/工序口径明示；日设备能力设计假设未测"
+    }
+  }
+}
