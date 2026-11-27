@@ -1,0 +1,500 @@
+{
+  "schema_version": "v3.1",
+  "as_of": "2026-11-27",
+  "currency": "CNY",
+  "status": "Illustrative scenario inputs, not local observed prices or merchant contract rates",
+  "platforms": {
+    "meituan": {
+      "commission_rate": {
+        "bad": 0.08,
+        "base": 0.07,
+        "good": 0.06
+      },
+      "delivery_cost": {
+        "bad": 5.5,
+        "base": 4,
+        "good": 2.5
+      },
+      "merchant_discount_rate": {
+        "bad": 0.1,
+        "base": 0.05,
+        "good": 0.02
+      },
+      "refund_rate": {
+        "bad": 0.03,
+        "base": 0.01,
+        "good": 0.005
+      },
+      "marketing_month": {
+        "bad": 800,
+        "base": 400,
+        "good": 150
+      },
+      "deposit": {
+        "bad": 3000,
+        "base": 0,
+        "good": 0
+      },
+      "settlement_days": {
+        "bad": 7,
+        "base": 3,
+        "good": 2
+      },
+      "commission_evidence": "2024-12-25 platform nationwide disclosure 6-8% tech fee, not 2026 local contract. All other ranges hypotheses; 3000 deposit stress tests conditional guarantee only; official free application is not a blanket no-deposit guarantee."
+    },
+    "taobao": {
+      "commission_rate": {
+        "bad": 0.08,
+        "base": 0.07,
+        "good": 0.05
+      },
+      "delivery_cost": {
+        "bad": 5.5,
+        "base": 4,
+        "good": 2.5
+      },
+      "merchant_discount_rate": {
+        "bad": 0.1,
+        "base": 0.05,
+        "good": 0.02
+      },
+      "refund_rate": {
+        "bad": 0.03,
+        "base": 0.01,
+        "good": 0.005
+      },
+      "marketing_month": {
+        "bad": 800,
+        "base": 400,
+        "good": 150
+      },
+      "deposit": {
+        "bad": 3000,
+        "base": 1000,
+        "good": 0
+      },
+      "settlement_days": {
+        "bad": 7,
+        "base": 3,
+        "good": 2
+      },
+      "commission_evidence": "Official merchant agreements identify components, no verified local rates. Every numeric assumption and conditional deposit is illustrative. Good 5% only tests favorable terms; not a claimed lower rate than Meituan."
+    }
+  },
+  "modes": {
+    "A": {
+      "delivery_ticket": 15,
+      "delivery_packaging": 0.9,
+      "food_cost_rate": 0.38,
+      "basket": "包点/肠粉或粥+鸡蛋/豆浆",
+      "unit_examples": {
+        "meituan": {
+          "bad": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 13.5,
+            "merchant_discount": 1.5,
+            "tech_fee": 1.08,
+            "delivery_fee": 5.5,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.4,
+            "contribution_before_tax_fixed_ads_host": -0.08
+          },
+          "base": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 14.25,
+            "merchant_discount": 0.75,
+            "tech_fee": 1.0,
+            "delivery_fee": 4,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.14,
+            "contribution_before_tax_fixed_ads_host": 2.51
+          },
+          "good": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 14.7,
+            "merchant_discount": 0.3,
+            "tech_fee": 0.88,
+            "delivery_fee": 2.5,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.07,
+            "contribution_before_tax_fixed_ads_host": 4.64
+          }
+        },
+        "taobao": {
+          "bad": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 13.5,
+            "merchant_discount": 1.5,
+            "tech_fee": 1.08,
+            "delivery_fee": 5.5,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.4,
+            "contribution_before_tax_fixed_ads_host": -0.08
+          },
+          "base": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 14.25,
+            "merchant_discount": 0.75,
+            "tech_fee": 1.0,
+            "delivery_fee": 4,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.14,
+            "contribution_before_tax_fixed_ads_host": 2.51
+          },
+          "good": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 14.7,
+            "merchant_discount": 0.3,
+            "tech_fee": 0.73,
+            "delivery_fee": 2.5,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.07,
+            "contribution_before_tax_fixed_ads_host": 4.79
+          }
+        }
+      }
+    },
+    "B": {
+      "delivery_ticket": 19,
+      "delivery_packaging": 1.2,
+      "food_cost_rate": 0.42,
+      "basket": "饭团/三明治+饮品或蛋",
+      "unit_examples": {
+        "meituan": {
+          "bad": {
+            "gross_basket": 19,
+            "discounted_goods_revenue": 17.1,
+            "merchant_discount": 1.9,
+            "tech_fee": 1.37,
+            "delivery_fee": 5.5,
+            "food": 7.98,
+            "packaging": 1.2,
+            "refund_allowance": 0.51,
+            "contribution_before_tax_fixed_ads_host": 0.54
+          },
+          "base": {
+            "gross_basket": 19,
+            "discounted_goods_revenue": 18.05,
+            "merchant_discount": 0.95,
+            "tech_fee": 1.26,
+            "delivery_fee": 4,
+            "food": 7.98,
+            "packaging": 1.2,
+            "refund_allowance": 0.18,
+            "contribution_before_tax_fixed_ads_host": 3.43
+          },
+          "good": {
+            "gross_basket": 19,
+            "discounted_goods_revenue": 18.62,
+            "merchant_discount": 0.38,
+            "tech_fee": 1.12,
+            "delivery_fee": 2.5,
+            "food": 7.98,
+            "packaging": 1.2,
+            "refund_allowance": 0.09,
+            "contribution_before_tax_fixed_ads_host": 5.73
+          }
+        },
+        "taobao": {
+          "bad": {
+            "gross_basket": 19,
+            "discounted_goods_revenue": 17.1,
+            "merchant_discount": 1.9,
+            "tech_fee": 1.37,
+            "delivery_fee": 5.5,
+            "food": 7.98,
+            "packaging": 1.2,
+            "refund_allowance": 0.51,
+            "contribution_before_tax_fixed_ads_host": 0.54
+          },
+          "base": {
+            "gross_basket": 19,
+            "discounted_goods_revenue": 18.05,
+            "merchant_discount": 0.95,
+            "tech_fee": 1.26,
+            "delivery_fee": 4,
+            "food": 7.98,
+            "packaging": 1.2,
+            "refund_allowance": 0.18,
+            "contribution_before_tax_fixed_ads_host": 3.43
+          },
+          "good": {
+            "gross_basket": 19,
+            "discounted_goods_revenue": 18.62,
+            "merchant_discount": 0.38,
+            "tech_fee": 0.93,
+            "delivery_fee": 2.5,
+            "food": 7.98,
+            "packaging": 1.2,
+            "refund_allowance": 0.09,
+            "contribution_before_tax_fixed_ads_host": 5.92
+          }
+        }
+      }
+    },
+    "C": {
+      "delivery_ticket": 17,
+      "delivery_packaging": 1,
+      "food_cost_rate": 0.46,
+      "basket": "早餐+酸奶、水果或零食",
+      "unit_examples": {
+        "meituan": {
+          "bad": {
+            "gross_basket": 17,
+            "discounted_goods_revenue": 15.3,
+            "merchant_discount": 1.7,
+            "tech_fee": 1.22,
+            "delivery_fee": 5.5,
+            "food": 7.82,
+            "packaging": 1,
+            "refund_allowance": 0.46,
+            "contribution_before_tax_fixed_ads_host": -0.7
+          },
+          "base": {
+            "gross_basket": 17,
+            "discounted_goods_revenue": 16.15,
+            "merchant_discount": 0.85,
+            "tech_fee": 1.13,
+            "delivery_fee": 4,
+            "food": 7.82,
+            "packaging": 1,
+            "refund_allowance": 0.16,
+            "contribution_before_tax_fixed_ads_host": 2.04
+          },
+          "good": {
+            "gross_basket": 17,
+            "discounted_goods_revenue": 16.66,
+            "merchant_discount": 0.34,
+            "tech_fee": 1.0,
+            "delivery_fee": 2.5,
+            "food": 7.82,
+            "packaging": 1,
+            "refund_allowance": 0.08,
+            "contribution_before_tax_fixed_ads_host": 4.26
+          }
+        },
+        "taobao": {
+          "bad": {
+            "gross_basket": 17,
+            "discounted_goods_revenue": 15.3,
+            "merchant_discount": 1.7,
+            "tech_fee": 1.22,
+            "delivery_fee": 5.5,
+            "food": 7.82,
+            "packaging": 1,
+            "refund_allowance": 0.46,
+            "contribution_before_tax_fixed_ads_host": -0.7
+          },
+          "base": {
+            "gross_basket": 17,
+            "discounted_goods_revenue": 16.15,
+            "merchant_discount": 0.85,
+            "tech_fee": 1.13,
+            "delivery_fee": 4,
+            "food": 7.82,
+            "packaging": 1,
+            "refund_allowance": 0.16,
+            "contribution_before_tax_fixed_ads_host": 2.04
+          },
+          "good": {
+            "gross_basket": 17,
+            "discounted_goods_revenue": 16.66,
+            "merchant_discount": 0.34,
+            "tech_fee": 0.83,
+            "delivery_fee": 2.5,
+            "food": 7.82,
+            "packaging": 1,
+            "refund_allowance": 0.08,
+            "contribution_before_tax_fixed_ads_host": 4.42
+          }
+        }
+      }
+    },
+    "D": {
+      "delivery_ticket": 24,
+      "delivery_packaging": 1.6,
+      "food_cost_rate": 0.42,
+      "basket": "简餐/蛋白质+主食或饮品",
+      "unit_examples": {
+        "meituan": {
+          "bad": {
+            "gross_basket": 24,
+            "discounted_goods_revenue": 21.6,
+            "merchant_discount": 2.4,
+            "tech_fee": 1.73,
+            "delivery_fee": 5.5,
+            "food": 10.08,
+            "packaging": 1.6,
+            "refund_allowance": 0.65,
+            "contribution_before_tax_fixed_ads_host": 2.04
+          },
+          "base": {
+            "gross_basket": 24,
+            "discounted_goods_revenue": 22.8,
+            "merchant_discount": 1.2,
+            "tech_fee": 1.6,
+            "delivery_fee": 4,
+            "food": 10.08,
+            "packaging": 1.6,
+            "refund_allowance": 0.23,
+            "contribution_before_tax_fixed_ads_host": 5.3
+          },
+          "good": {
+            "gross_basket": 24,
+            "discounted_goods_revenue": 23.52,
+            "merchant_discount": 0.48,
+            "tech_fee": 1.41,
+            "delivery_fee": 2.5,
+            "food": 10.08,
+            "packaging": 1.6,
+            "refund_allowance": 0.12,
+            "contribution_before_tax_fixed_ads_host": 7.81
+          }
+        },
+        "taobao": {
+          "bad": {
+            "gross_basket": 24,
+            "discounted_goods_revenue": 21.6,
+            "merchant_discount": 2.4,
+            "tech_fee": 1.73,
+            "delivery_fee": 5.5,
+            "food": 10.08,
+            "packaging": 1.6,
+            "refund_allowance": 0.65,
+            "contribution_before_tax_fixed_ads_host": 2.04
+          },
+          "base": {
+            "gross_basket": 24,
+            "discounted_goods_revenue": 22.8,
+            "merchant_discount": 1.2,
+            "tech_fee": 1.6,
+            "delivery_fee": 4,
+            "food": 10.08,
+            "packaging": 1.6,
+            "refund_allowance": 0.23,
+            "contribution_before_tax_fixed_ads_host": 5.3
+          },
+          "good": {
+            "gross_basket": 24,
+            "discounted_goods_revenue": 23.52,
+            "merchant_discount": 0.48,
+            "tech_fee": 1.18,
+            "delivery_fee": 2.5,
+            "food": 10.08,
+            "packaging": 1.6,
+            "refund_allowance": 0.12,
+            "contribution_before_tax_fixed_ads_host": 8.05
+          }
+        }
+      }
+    },
+    "E": {
+      "delivery_ticket": 15,
+      "delivery_packaging": 0.9,
+      "food_cost_rate": 0.38,
+      "basket": "包点或便携早餐套餐",
+      "unit_examples": {
+        "meituan": {
+          "bad": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 13.5,
+            "merchant_discount": 1.5,
+            "tech_fee": 1.08,
+            "delivery_fee": 5.5,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.4,
+            "contribution_before_tax_fixed_ads_host": -0.08
+          },
+          "base": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 14.25,
+            "merchant_discount": 0.75,
+            "tech_fee": 1.0,
+            "delivery_fee": 4,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.14,
+            "contribution_before_tax_fixed_ads_host": 2.51
+          },
+          "good": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 14.7,
+            "merchant_discount": 0.3,
+            "tech_fee": 0.88,
+            "delivery_fee": 2.5,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.07,
+            "contribution_before_tax_fixed_ads_host": 4.64
+          }
+        },
+        "taobao": {
+          "bad": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 13.5,
+            "merchant_discount": 1.5,
+            "tech_fee": 1.08,
+            "delivery_fee": 5.5,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.4,
+            "contribution_before_tax_fixed_ads_host": -0.08
+          },
+          "base": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 14.25,
+            "merchant_discount": 0.75,
+            "tech_fee": 1.0,
+            "delivery_fee": 4,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.14,
+            "contribution_before_tax_fixed_ads_host": 2.51
+          },
+          "good": {
+            "gross_basket": 15,
+            "discounted_goods_revenue": 14.7,
+            "merchant_discount": 0.3,
+            "tech_fee": 0.73,
+            "delivery_fee": 2.5,
+            "food": 5.7,
+            "packaging": 0.9,
+            "refund_allowance": 0.07,
+            "contribution_before_tax_fixed_ads_host": 4.79
+          }
+        }
+      }
+    }
+  },
+  "example_cost_scope": "food_cost_rate is provisional direct food procurement incl normal spoilage on gross menu-value basket, NOT a forced override of V3 cost estimates. Charge delivery packaging once; if model already includes ordinary packaging replace it for online orders. Refund rate is expected net economic deduction of discounted goods revenue beyond normal spoilage, before fixed cost, not order count. Purchased food already in unit cost, do not deduct again.",
+  "fee_basis": "Gross basket G includes merchant-collected packaging if any; excludes consumer rider fee, which is not merchant revenue. Merchant discount d applied once; recognized goods revenue R=G*(1-d). Tech fee model = R*commission; actual fee basis may differ. Platform subsidy zero for base; paid advertising is independent monthly fixed cost. Merchant delivery fee per order separate from consumer delivery; refunds allowance R*refund_rate. Unit contribution=R - R*commission - delivery_cost - G*food_cost_rate - delivery_packaging - R*refund_rate; excludes tax, rent, labor, ads, host share, maintenance.",
+  "demand": "Split a single online demand pool between channels; illustrative equal split where both enabled, not claimed market share. Online and walk-in share production capacity; online cannibalization/offline displacement must be independently modeled. Never apply both channels to all demand.",
+  "deposit_and_settlement": "Deposit conditional recoverable restricted cash at startup, not expense. Refund timing and recovery subject to valid contract and claims. Hold settlement receivable for days, don't treat unpaid order proceeds as cash. No verified local settlement term.",
+  "shared_one_time_setup": {
+    "range": [
+      500,
+      1500
+    ],
+    "base": 1000,
+    "note": "Only if costs not already covered by equipment/preopening. Shared mobile/thermal printer/labels/bag samples and menu photography; stress test; avoid duplicate channel devices/installation."
+  },
+  "eligibility": "E shared kitchen/host must have actual legal operator, food permit scope, landlord authorization, platform approval and written division of responsibilities; online channel OFF until successful verification.",
+  "source_urls": {
+    "meituan_commission": "https://www.meituan.com/news/NN241225051008799",
+    "meituan_onboarding": "https://123.meituan.com/serve/web/business/167?moduleMenuCode=0",
+    "meituan_fee_example_2023": "https://s3plus.meituan.net/waimai-pc/%E7%B9%81%E7%9B%9B%E8%AE%A1%E5%88%92%E4%B8%80%E5%91%A8%E5%B9%B4%E6%8A%A5%E5%91%8A-20230322.pdf",
+    "taobao_contract": "https://terms.alicdn.com/legal-agreement/terms/b_platform_service_agreement/20230320103053372/20230320103053372.html",
+    "taobao_deposit_retail_scope": "https://terms.alicdn.com/legal-agreement/terms/product/20220721184123748/20220721184123748.html",
+    "local_openrice": "https://www.openrice.com/zh/shenzhen/r-%E5%BF%AB%E6%A8%82%E7%95%AA%E8%96%AF-%E7%A6%8F%E6%B0%B8-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%9E%9C%E6%B1%81-%E5%A5%B6%E8%8C%B6-r10328582",
+    "national_promotion": "https://dir.jd.com/guide/jd-geo-guide-you-hui-huo-dong-zaocan",
+    "national_recommended_standard": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=62392BB3AFF5E315AF9FA202390A12A6",
+    "national_standard_fee_scope": "https://www.samr.gov.cn/xw/mtjj/art/2025/art_d5e170c2bc9341e5a8484a48166fd7a7.html"
+  }
+}
