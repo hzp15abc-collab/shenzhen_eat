@@ -1,0 +1,493 @@
+{
+  "research_date": "2026-11-27",
+  "currency": "CNY",
+  "status": "scenario assumptions calibrated against dated public job ads; NOT actual shop capacity nor salary offers",
+  "wages": {
+    "low": 5800,
+    "base": 7200,
+    "high": 8800
+  },
+  "wage_breakdown": {
+    "low": {
+      "monthly_gross": 4000,
+      "employer_statutory_cost_reserve": 1250,
+      "benefits_roster_other_reserve": 550,
+      "total": 5800
+    },
+    "base": {
+      "monthly_gross": 5000,
+      "employer_statutory_cost_reserve": 1600,
+      "benefits_roster_other_reserve": 600,
+      "total": 7200
+    },
+    "high": {
+      "monthly_gross": 6000,
+      "employer_statutory_cost_reserve": 1950,
+      "benefits_roster_other_reserve": 850,
+      "total": 8800
+    },
+    "skilled_cook": {
+      "gross_local_ad_low": 8000,
+      "gross_local_ad_high": 9000,
+      "fully_loaded_low": 10800,
+      "fully_loaded_high": 12500,
+      "base": 11600
+    },
+    "short_peak_helper": {
+      "gross_hour_low": 25.4,
+      "gross_hour_base": 30,
+      "gross_hour_high": 36,
+      "fully_loaded_hour_low": 30,
+      "fully_loaded_hour_base": 35,
+      "fully_loaded_hour_high": 42,
+      "peak_window_hours": 3,
+      "monthly_open_days": 26,
+      "example_base_monthly": 2730
+    }
+  },
+  "statutory": {
+    "min_monthly_full_time_gross": 2700,
+    "min_nonfulltime_hourly": 25.4,
+    "effective_from": "2026-09-01",
+    "source": "https://hrss.sz.gov.cn/tzgg/content/post_12954870.html",
+    "fulltime_paid_days_month": 21.75,
+    "standard_daily_hours": 8,
+    "assumed_ft_effective_service_ratio": 0.75,
+    "service_availability_formula": "8*60*20.67/26*0.75 = 286.2, rounded conservatively down to 285; peak staff minute=peak_minutes*(20.67/26)*0.75 rounded. 21.75 is wage conversion only, not actual workdays. Leave/holidays/coverage still require real roster.",
+    "owner_salary": 0,
+    "partner_count": 2,
+    "owner_labor_note": "Owners not booked as salaries per user. Rest, prep, fixed tasks deducted. Owners may separately decide social insurance or draws; not employee salaries. If actual schedule demands extra people hire or shorten hours.",
+    "fulltime_workdays_month": 20.67,
+    "workdays_source": "https://app.www.gov.cn/govdata/gov/202501/02/523227/article.html",
+    "pension_base_min": 5521,
+    "pension_base_max": 27603,
+    "pension_source": "https://hrss.gd.gov.cn/zwgk/gsgg/content/post_4957552.html",
+    "housing_fund_rate_min": 0.05,
+    "housing_fund_rate_max": 0.12,
+    "housing_fund_source": "https://www.sz.gov.cn/hdjlpt/detail?pid=3463076&via=pc",
+    "nonfulltime_hours_general_max_daily": 4,
+    "nonfulltime_hours_max_weekly": 24,
+    "nonfulltime_source": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_0abfdd261c03417b949df19d869add8d.html-0",
+    "pension_employer_rate": 0.16,
+    "pension_local_hukou_add_rate": 0.01,
+    "pension_rate_source": "https://guangdong.chinatax.gov.cn/gdsw/tzgg/2024-12/30/content_ae1e88d7f7b749caadd63a777b54bd8f.shtml",
+    "pension_local_source": "https://www.sz.gov.cn/hdjlpt/detail?pid=3072960",
+    "medical_base_min_2026": 6727,
+    "medical_base_max_2026": 33633,
+    "medical_tier1_employer_rate_2026": 0.06,
+    "medical_tier2_employer_rate": 0.015,
+    "medical_2026_source": "https://hsa.sz.gov.cn/gkmlpt/content/12/12567/post_12567884.html",
+    "medical_rate_source": "https://www.sz.gov.cn/zfgb/2023/gb1305/content/post_10865658.html",
+    "wage_reserve_warning": "Payroll reserves only. If applicable statutory employer contributions incl pension, medical, unemployment, maternity, injury and housing fund exceed modeled reserve, use actual statutory amount. Low scenario depends on applicable classification; employers must not select incorrect insurance tier to lower costs."
+  },
+  "capacity_formula": "blend = (1-delivery_share)*onsite_person_min_per_order + delivery_share*delivery_person_min_per_order; N_max = floor(min(equipment[tier],(partner_day_service_min+FTE*285+parttime_day_service_min)/blend,(partner_peak_service_min+FTE*peak_staff_person_min+parttime_peak_service_min)/(peak_share*blend))); served=min(demand,N_max); cap at space/station and schedule limits. Fractional FTE not presumed each day; verify roster or use daily calendar.",
+  "capacity_uncertainty": {
+    "low": {
+      "order_time_multiplier": 1.2,
+      "effective_service_min_multiplier": 0.9,
+      "equipment_multiplier": 0.85
+    },
+    "base": {
+      "order_time_multiplier": 1,
+      "effective_service_min_multiplier": 1,
+      "equipment_multiplier": 1
+    },
+    "high": {
+      "order_time_multiplier": 0.85,
+      "effective_service_min_multiplier": 1.08,
+      "equipment_multiplier": 1.1
+    },
+    "note": "Apply only if tier pricing/capacity scenarios not already adjusting same variable. No double count; equipment specs still upper-bound."
+  },
+  "modes": {
+    "A": {
+      "name": "传统中式早餐",
+      "open_days_30": 26,
+      "partner_daily_hours": 8.5,
+      "available_service_person_min": 700,
+      "onsite_person_min_per_order": 2.2,
+      "delivery_person_min_per_order": 3.0,
+      "added_staff_service_min_day": 285,
+      "peak_minutes": 150,
+      "peak_share": 0.62,
+      "peak_partner_person_min": 234,
+      "peak_staff_person_min": 89,
+      "equipment_capacity": [
+        260,
+        390,
+        550
+      ],
+      "max_staff": [
+        1,
+        2,
+        3
+      ],
+      "space_m2": [
+        20,
+        30,
+        40
+      ],
+      "fixed_work_and_breaks_min": 320,
+      "stations": [
+        "蒸制和批次备料",
+        "取餐打包、收银"
+      ],
+      "equipment_capacity_by_tier": {
+        "low": 260,
+        "base": 390,
+        "high": 550
+      },
+      "max_staff_by_tier": {
+        "low": 1,
+        "base": 2,
+        "high": 3
+      },
+      "partner_count": 2,
+      "partner_month_hours_each": 221.0,
+      "capacity_status": "建模假设，未实测，不作为承诺；高峰为全日聚合繁忙时段，不能当作学校时刻。",
+      "onsite_only_no_staff_capacity": 171,
+      "blended_25pct_delivery_no_staff_capacity": 157,
+      "blended_25pct_delivery_one_ft_staff_capacity": 217
+    },
+    "B": {
+      "name": "便携特色早餐",
+      "open_days_30": 26,
+      "partner_daily_hours": 8.5,
+      "available_service_person_min": 680,
+      "onsite_person_min_per_order": 2.6,
+      "delivery_person_min_per_order": 3.4,
+      "added_staff_service_min_day": 285,
+      "peak_minutes": 150,
+      "peak_share": 0.58,
+      "peak_partner_person_min": 234,
+      "peak_staff_person_min": 89,
+      "equipment_capacity": [
+        220,
+        360,
+        500
+      ],
+      "max_staff": [
+        1,
+        2,
+        3
+      ],
+      "space_m2": [
+        18,
+        28,
+        38
+      ],
+      "fixed_work_and_breaks_min": 340,
+      "stations": [
+        "冷热分区组装和压烤",
+        "收银、包装、订单核对"
+      ],
+      "equipment_capacity_by_tier": {
+        "low": 220,
+        "base": 360,
+        "high": 500
+      },
+      "max_staff_by_tier": {
+        "low": 1,
+        "base": 2,
+        "high": 3
+      },
+      "partner_count": 2,
+      "partner_month_hours_each": 221.0,
+      "capacity_status": "建模假设，未实测，不作为承诺；高峰为全日聚合繁忙时段，不能当作学校时刻。",
+      "onsite_only_no_staff_capacity": 155,
+      "blended_25pct_delivery_no_staff_capacity": 144,
+      "blended_25pct_delivery_one_ft_staff_capacity": 198
+    },
+    "C": {
+      "name": "早餐+社区零食",
+      "open_days_30": 26,
+      "partner_daily_hours": 9.0,
+      "available_service_person_min": 720,
+      "onsite_person_min_per_order": 2.0,
+      "delivery_person_min_per_order": 3.1,
+      "added_staff_service_min_day": 285,
+      "peak_minutes": 160,
+      "peak_share": 0.5,
+      "peak_partner_person_min": 250,
+      "peak_staff_person_min": 95,
+      "equipment_capacity": [
+        280,
+        420,
+        550
+      ],
+      "max_staff": [
+        1,
+        2,
+        3
+      ],
+      "space_m2": [
+        30,
+        45,
+        60
+      ],
+      "fixed_work_and_breaks_min": 360,
+      "stations": [
+        "热食备餐和补货",
+        "收银、陈列、包装与库存"
+      ],
+      "equipment_capacity_by_tier": {
+        "low": 280,
+        "base": 420,
+        "high": 550
+      },
+      "max_staff_by_tier": {
+        "low": 1,
+        "base": 2,
+        "high": 3
+      },
+      "partner_count": 2,
+      "partner_month_hours_each": 234.0,
+      "capacity_status": "建模假设，未实测，不作为承诺；高峰为全日聚合繁忙时段，不能当作学校时刻。",
+      "onsite_only_no_staff_capacity": 250,
+      "blended_25pct_delivery_no_staff_capacity": 219,
+      "blended_25pct_delivery_one_ft_staff_capacity": 303
+    },
+    "D": {
+      "name": "多时段早餐与简餐",
+      "open_days_30": 26,
+      "partner_daily_hours": 10.0,
+      "available_service_person_min": 690,
+      "onsite_person_min_per_order": 3.6,
+      "delivery_person_min_per_order": 4.8,
+      "added_staff_service_min_day": 285,
+      "peak_minutes": 180,
+      "peak_share": 0.48,
+      "peak_partner_person_min": 270,
+      "peak_staff_person_min": 107,
+      "equipment_capacity": [
+        220,
+        420,
+        600
+      ],
+      "max_staff": [
+        1,
+        3,
+        5
+      ],
+      "space_m2": [
+        45,
+        70,
+        95
+      ],
+      "fixed_work_and_breaks_min": 510,
+      "stations": [
+        "热厨和批次生产",
+        "前台、包装、取餐和洗消"
+      ],
+      "equipment_capacity_by_tier": {
+        "low": 220,
+        "base": 420,
+        "high": 600
+      },
+      "max_staff_by_tier": {
+        "low": 1,
+        "base": 3,
+        "high": 5
+      },
+      "partner_count": 2,
+      "partner_month_hours_each": 260.0,
+      "capacity_status": "建模假设，未实测，不作为承诺；高峰为全日聚合繁忙时段，不能当作学校时刻。",
+      "onsite_only_no_staff_capacity": 156,
+      "blended_25pct_delivery_no_staff_capacity": 144,
+      "blended_25pct_delivery_one_ft_staff_capacity": 201
+    },
+    "E": {
+      "name": "分时合作档口",
+      "open_days_30": 26,
+      "partner_daily_hours": 6.5,
+      "available_service_person_min": 480,
+      "onsite_person_min_per_order": 2.1,
+      "delivery_person_min_per_order": 3.2,
+      "added_staff_service_min_day": 285,
+      "peak_minutes": 135,
+      "peak_share": 0.68,
+      "peak_partner_person_min": 211,
+      "peak_staff_person_min": 80,
+      "equipment_capacity": [
+        160,
+        250,
+        340
+      ],
+      "max_staff": [
+        0,
+        1,
+        1
+      ],
+      "space_m2": [
+        8,
+        12,
+        20
+      ],
+      "fixed_work_and_breaks_min": 300,
+      "stations": [
+        "少SKU预备、加热",
+        "收款、打包、交接清洁"
+      ],
+      "equipment_capacity_by_tier": {
+        "low": 160,
+        "base": 250,
+        "high": 340
+      },
+      "max_staff_by_tier": {
+        "low": 0,
+        "base": 1,
+        "high": 1
+      },
+      "partner_count": 2,
+      "partner_month_hours_each": 169.0,
+      "capacity_status": "建模假设，未实测，不作为承诺；高峰为全日聚合繁忙时段，不能当作学校时刻。",
+      "onsite_only_no_staff_capacity": 147,
+      "blended_25pct_delivery_no_staff_capacity": 130,
+      "blended_25pct_delivery_one_ft_staff_capacity": 180
+    }
+  },
+  "recruitment_samples": [
+    {
+      "id": "L01",
+      "geo": "福海和平社区",
+      "employer": "炣沩餐饮店",
+      "job": "汉堡店员",
+      "gross_monthly_low": 4000,
+      "gross_monthly_high": 5000,
+      "benefit": "包住、餐补",
+      "observed_post_date": "2026-11-24",
+      "verification": "招聘搜索快照，企业页可核实地域，动态招聘内容未稳定复现",
+      "url": "https://m.yupao.com/qiye/226854625.html"
+    },
+    {
+      "id": "L02",
+      "geo": "福海",
+      "employer": "苍井寿司店",
+      "job": "店员",
+      "gross_monthly_low": 4000,
+      "gross_monthly_high": 5000,
+      "benefit": "全职、包吃、培训",
+      "observed_post_date": null,
+      "verification": "近3周搜索索引；刷新不稳定",
+      "url": "https://www.yupao.com/s/yp9358276/"
+    },
+    {
+      "id": "L03",
+      "geo": "福海",
+      "employer": "李师傅食为天快餐店",
+      "job": "自选快餐炒菜厨师",
+      "gross_monthly_low": 8000,
+      "gross_monthly_high": 9000,
+      "benefit": "全职、包吃包住",
+      "observed_post_date": null,
+      "verification": "近1月搜索索引；刷新不稳定",
+      "url": "https://www.yupao.com/s/yp3489552/"
+    },
+    {
+      "id": "L04",
+      "geo": "宝安",
+      "employer": "东华旺饮食店",
+      "job": "出餐打包接单",
+      "gross_monthly_low": 4000,
+      "gross_monthly_high": 4000,
+      "benefit": "包吃",
+      "observed_post_date": null,
+      "verification": "公开搜索索引；实际岗位未确认",
+      "url": "https://www.yupao.com/s/yp4445634/"
+    },
+    {
+      "id": "L05",
+      "geo": "宝安",
+      "employer": null,
+      "job": "煲仔饭配菜打荷",
+      "gross_monthly_low": 4000,
+      "gross_monthly_high": 5000,
+      "benefit": "包住包吃社保",
+      "observed_post_date": null,
+      "verification": "公开索引，直达链接后续未稳定打开",
+      "url": "https://www.yupao.com/zhaogong/522066995.html"
+    },
+    {
+      "id": "L06",
+      "geo": "宝安",
+      "employer": "吉源餐饮",
+      "job": "餐饮后厨制作、打包",
+      "gross_monthly_low": 4000,
+      "gross_monthly_high": 5000,
+      "benefit": "包吃",
+      "observed_post_date": "2026-08-13",
+      "verification": "公开索引，直达链接后续未稳定打开",
+      "url": "https://m.yupao.com/zhaogong/440667525.html"
+    },
+    {
+      "id": "L07",
+      "geo": "宝安",
+      "employer": "朱家小吃店",
+      "job": "早餐厨师",
+      "gross_monthly_low": 3500,
+      "gross_monthly_high": 4000,
+      "benefit": "包吃",
+      "observed_post_date": null,
+      "verification": "58同城调研日公开列表快照，岗位详情未独立验证",
+      "url": "https://www.58.com/ppeseoll30587/"
+    },
+    {
+      "id": "L07",
+      "geo": "宝安新桥",
+      "employer": "德旺兴现炒店",
+      "job": "早餐厨师",
+      "gross_monthly_low": 3000,
+      "gross_monthly_high": 5100,
+      "benefit": "工作时间灵活，实际时长不明",
+      "observed_post_date": null,
+      "verification": "58同城调研日公开列表快照，岗位详情未独立验证",
+      "url": "https://www.58.com/ppeseoll30587/"
+    },
+    {
+      "id": "L07",
+      "geo": "宝安",
+      "employer": "弘毅餐饮",
+      "job": "小吃/快餐厨师",
+      "gross_monthly_low": 4500,
+      "gross_monthly_high": 6000,
+      "benefit": "包吃",
+      "observed_post_date": null,
+      "verification": "58同城调研日公开列表快照，岗位详情未独立验证",
+      "url": "https://www.58.com/ppeseoll30587/"
+    },
+    {
+      "id": "L07",
+      "geo": "宝安",
+      "employer": "赣小厨餐饮店",
+      "job": "厨师",
+      "gross_monthly_low": 7500,
+      "gross_monthly_high": 8000,
+      "benefit": "包吃包住",
+      "observed_post_date": null,
+      "verification": "58同城调研日公开列表快照，岗位详情未独立验证",
+      "url": "https://www.58.com/ppeseoll30587/"
+    },
+    {
+      "id": "L07",
+      "geo": "宝安",
+      "employer": "潮禾膳餐饮店",
+      "job": "炒锅/烧腊/卤味厨师",
+      "gross_monthly_low": 6500,
+      "gross_monthly_high": 7000,
+      "benefit": "五险包吃住，3–5年经验",
+      "observed_post_date": null,
+      "verification": "58同城调研日公开列表快照，岗位详情未独立验证",
+      "url": "https://www.58.com/ppeseoll30587/"
+    },
+    {
+      "id": "L08",
+      "geo": "深圳龙华（跨区）",
+      "employer": "黎记石磨肠粉",
+      "job": "周末帮手",
+      "gross_hourly": 25,
+      "observed_post_date": "2026-11-27",
+      "verification": "低于当前法定非全日制时薪25.4，不用作预算",
+      "url": "https://m.yupao.com/zhaogong/522358234.html"
+    }
+  ]
+}
