@@ -1,0 +1,107 @@
+{
+  "A_reportlab_cards": {
+    "path": "A_reportlab_cards.pdf",
+    "bytes": 7895,
+    "generate_seconds": 0.005,
+    "pages": 3,
+    "links": 3,
+    "toc": 3,
+    "size_pt": [
+      390.0,
+      844.0
+    ],
+    "checks": [
+      {
+        "page": 1,
+        "text_chars": 237,
+        "missing_expected": [],
+        "out_of_page_blocks": [],
+        "replacement_char_count": 0
+      },
+      {
+        "page": 2,
+        "text_chars": 244,
+        "missing_expected": [],
+        "out_of_page_blocks": [],
+        "replacement_char_count": 0
+      },
+      {
+        "page": 3,
+        "text_chars": 211,
+        "missing_expected": [],
+        "out_of_page_blocks": [],
+        "replacement_char_count": 0
+      }
+    ]
+  },
+  "B_pymupdf_editorial": {
+    "path": "B_pymupdf_editorial.pdf",
+    "bytes": 779851,
+    "generate_seconds": 0.335,
+    "pages": 3,
+    "links": 3,
+    "toc": 3,
+    "size_pt": [
+      390.0,
+      844.0
+    ],
+    "checks": [
+      {
+        "page": 1,
+        "text_chars": 238,
+        "missing_expected": [],
+        "out_of_page_blocks": [],
+        "replacement_char_count": 0
+      },
+      {
+        "page": 2,
+        "text_chars": 246,
+        "missing_expected": [],
+        "out_of_page_blocks": [],
+        "replacement_char_count": 0
+      },
+      {
+        "page": 3,
+        "text_chars": 213,
+        "missing_expected": [],
+        "out_of_page_blocks": [],
+        "replacement_char_count": 0
+      }
+    ]
+  },
+  "C_pymupdf_photo_led": {
+    "path": "C_pymupdf_photo_led.pdf",
+    "bytes": 779901,
+    "generate_seconds": 0.34,
+    "pages": 3,
+    "links": 3,
+    "toc": 3,
+    "size_pt": [
+      390.0,
+      844.0
+    ],
+    "checks": [
+      {
+        "page": 1,
+        "text_chars": 238,
+        "missing_expected": [],
+        "out_of_page_blocks": [],
+        "replacement_char_count": 0
+      },
+      {
+        "page": 2,
+        "text_chars": 246,
+        "missing_expected": [],
+        "out_of_page_blocks": [],
+        "replacement_char_count": 0
+      },
+      {
+        "page": 3,
+        "text_chars": 213,
+        "missing_expected": [],
+        "out_of_page_blocks": [],
+        "replacement_char_count": 0
+      }
+    ]
+  }
+}
