@@ -1,0 +1,92 @@
+{
+  "A": {
+    "file": "A_街坊纪实.pdf",
+    "pages": 3,
+    "page_size": [
+      390,
+      844
+    ],
+    "seconds": 0.45,
+    "bytes": 937586,
+    "checks": [
+      {
+        "page": 1,
+        "median_font_pt": 12.6,
+        "overflow": [],
+        "replacement": 0
+      },
+      {
+        "page": 2,
+        "median_font_pt": 13.4,
+        "overflow": [],
+        "replacement": 0
+      },
+      {
+        "page": 3,
+        "median_font_pt": 13.5,
+        "overflow": [],
+        "replacement": 0
+      }
+    ]
+  },
+  "B": {
+    "file": "B_财经图解.pdf",
+    "pages": 3,
+    "page_size": [
+      390,
+      844
+    ],
+    "seconds": 0.35,
+    "bytes": 947392,
+    "checks": [
+      {
+        "page": 1,
+        "median_font_pt": 12.5,
+        "overflow": [],
+        "replacement": 0
+      },
+      {
+        "page": 2,
+        "median_font_pt": 13.4,
+        "overflow": [],
+        "replacement": 0
+      },
+      {
+        "page": 3,
+        "median_font_pt": 13.5,
+        "overflow": [],
+        "replacement": 0
+      }
+    ]
+  },
+  "C": {
+    "file": "C_店主决策笔记.pdf",
+    "pages": 3,
+    "page_size": [
+      390,
+      844
+    ],
+    "seconds": 0.37,
+    "bytes": 944809,
+    "checks": [
+      {
+        "page": 1,
+        "median_font_pt": 12.8,
+        "overflow": [],
+        "replacement": 0
+      },
+      {
+        "page": 2,
+        "median_font_pt": 13.4,
+        "overflow": [],
+        "replacement": 0
+      },
+      {
+        "page": 3,
+        "median_font_pt": 13.5,
+        "overflow": [],
+        "replacement": 0
+      }
+    ]
+  }
+}
