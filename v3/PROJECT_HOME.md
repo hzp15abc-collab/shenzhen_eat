@@ -18,3 +18,6 @@
 - [监督结论](reviews/INDEPENDENT_REVIEW_V3.md)、[自迭代日志](tooling/ITERATION_LOG.md)、[环境](tooling/ENVIRONMENT.md)、[Mac本地接手说明](HANDOFF_MAC.md)
 
 V3完整工程ZIP包括数据、PDF、互动HTML、照片、样稿以及全部源文件。GitHub保留文本研究和核心可复算脚本，较大产生物提供独立ZIP、避免仓库重复存储。真实客流、实时菜单、实际租约、共享经营许可、门店流水及外卖合同仍未知。取得实测后替换输入，复算与复验后再交付，而非把模拟当事实。
+
+## 用户反馈后的状态
+用户认为V3与V2基本无可见区别，未充分落实最新目标。V3作为已验证的桌面研究/模拟基线保留，最终报告体验退回整改；不宣称完成用户最终验收。[目标差距复核](reviews/USER_GOAL_GAP.md)及[工作流修订](../WORKFLOW.md)。
