@@ -1,0 +1,871 @@
+{
+  "file": "shenzhen_eat/deliverables/Shenzhen_Eat_手机商业指南_V2.pdf",
+  "page_count": 61,
+  "page_dimensions_pt": [
+    [
+      390.0,
+      844.0
+    ]
+  ],
+  "internal_links": 167,
+  "external_links": 82,
+  "invalid_internal_link_destinations": [],
+  "total_chars": 19988,
+  "pages": [
+    {
+      "page": 1,
+      "ratio_w_h": 0.462,
+      "chars": 179,
+      "title_preview": "深圳宝安 · 福海新和社区 / 在新和，开一家 / 能养活自己的小店？ / 一份给第一次做生意的人看的开店指南 / 福海桥和路沿街商铺，2023年8月实拍。仅周边参照，非新和三 / 区。 · 图源见照片页 / 五种做法｜三年",
+      "fit_font_char_weighted_median_px": {
+        "360": 14.95,
+        "390": 16.2,
+        "430": 17.86
+      },
+      "fit_font_chars_under_13_px_360": 62,
+      "image_count": 1,
+      "link_count": 2
+    },
+    {
+      "page": 2,
+      "ratio_w_h": 0.462,
+      "chars": 209,
+      "title_preview": "先看这里 / 这份报告，帮你先回答三个 / 问题 / 先不急着找店，也别把任何一个方案当成稳赚 / 的生意。 / 钱够不够？ / 开业所需资金不是装修费，还要预留周转金。 / 生意能不能做起来？ / 检验当地成人商业消费、真实付费订",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 59,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 3,
+      "ratio_w_h": 0.462,
+      "chars": 260,
+      "title_preview": "阅读地图 / 想看哪一段？ / 点下面任一问题，直接跳到对应章节。 / 01 / 看懂这个地方 / 学校、住户和真正会花钱的人 / 02 / 看看同行 / 现有门店、房租和地段 / 03 / 选择做什么 / 五种开店方式 / 04 / 怎么经营 / 人员、",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.37,
+        "390": 13.4,
+        "430": 14.77
+      },
+      "fit_font_chars_under_13_px_360": 140,
+      "image_count": 0,
+      "link_count": 11
+    },
+    {
+      "page": 4,
+      "ratio_w_h": 0.462,
+      "chars": 275,
+      "title_preview": "看懂这个地方 / 福海桥头菜肉市场，2023年8月实拍。仅周边参照。 / 图源及授权 / 点击查看 / 新和不只是学校商圈 / 住户、园区、交通商业、会展周边消费，可能 / 构成不同的生意来源。 / 约53万 / 福海街道管理人",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.18,
+        "390": 13.2,
+        "430": 14.55
+      },
+      "fit_font_chars_under_13_px_360": 133,
+      "image_count": 1,
+      "link_count": 4
+    },
+    {
+      "page": 5,
+      "ratio_w_h": 0.462,
+      "chars": 299,
+      "title_preview": "看懂这个地方 / 附近的两所学校是什么情 / 况？ / 教育配套是区域背景，但校内供餐本身也是外 / 购餐的替代选择。 / 福新小学 / 公办小学，官方目录记载配餐；2022年预算记 / 载1798名学生，属于旧数据。 / 鹏晖中英",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 83,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 6,
+      "ratio_w_h": 0.462,
+      "chars": 243,
+      "title_preview": "看懂这个地方 / 谁会花钱买一份早餐？ / 早餐得先赢过家里做饭、食堂、便利店和已有 / 的平价餐饮。 / 家中早餐 / 66.3% / 校内早餐 / 25.8% / 其他外部餐饮 / 7.9% / 家庭 / 看卫生、放心、饱腹和价格。 / 上班族",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.05,
+        "390": 16.3,
+        "430": 17.97
+      },
+      "fit_font_chars_under_13_px_360": 84,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 7,
+      "ratio_w_h": 0.462,
+      "chars": 310,
+      "title_preview": "看懂这个地方 / 当地消费能力，能不能靠数 / 据算出来？ / 深圳2025年人均可支配收入约8.5万元/年，人 / 均消费支出约5.35万元/年。 / 这只是全市背景 / 不能把全市平均值、学校学费或园区数量直接 / 当成这个",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 80,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 8,
+      "ratio_w_h": 0.462,
+      "chars": 276,
+      "title_preview": "看看同行 / 福海桥和路沿街门店，2023年8月实拍。非新和三区商户盘点。 / 图源及授权 / 点击查看 / 找到了哪些同行？ / 26个公开商户候选记录，足以证明存在竞争线 / 索，却不是完整门店普查。 / 包点、粉面 / 福",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.18,
+        "390": 13.2,
+        "430": 14.55
+      },
+      "fit_font_chars_under_13_px_360": 135,
+      "image_count": 1,
+      "link_count": 4
+    },
+    {
+      "page": 9,
+      "ratio_w_h": 0.462,
+      "chars": 309,
+      "title_preview": "看看同行 / 便宜铺租，和好生意是两回 / 事 / 核心社区8条公开挂牌线索，月租从1180元到 / 16300元，面积和行业条件不同。 / 新和三区 · 30㎡ / 挂牌1180元/月，空置；未明确是否可餐饮或 / 明火。 / 新",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 92,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 10,
+      "ratio_w_h": 0.462,
+      "chars": 332,
+      "title_preview": "看看同行 / 铺子应该选在哪里？ / 先比较商业地段类型，再用现场数据评分；暂 / 时没有足够证据推荐某一家。 / 住宅商业带｜新和三区 / 一般居民需求，周末可能更稳定；注意门面能 / 见度及合法经营条件。 / 成熟商街｜新和",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.05,
+        "390": 16.3,
+        "430": 17.97
+      },
+      "fit_font_chars_under_13_px_360": 112,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 11,
+      "ratio_w_h": 0.462,
+      "chars": 286,
+      "title_preview": "选择做什么 / 南山前海湾站包点，2024年9月实拍。餐品参照，非新和。 / 图源及授权 / 点击查看 / 早餐可以便宜，但一定要可 / 靠 / 菜单不必一开始就多。顾客真正买的是卫生、 / 速度、温度、口味和放心。 / 传统基",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.18,
+        "390": 13.2,
+        "430": 14.55
+      },
+      "fit_font_chars_under_13_px_360": 135,
+      "image_count": 1,
+      "link_count": 4
+    },
+    {
+      "page": 12,
+      "ratio_w_h": 0.462,
+      "chars": 254,
+      "title_preview": "选择做什么 / 你先有五种生意可以比较 / 不是五个推荐排名，而是五种不同占用资金、 / 人力与时间的经营方式。 / A 传统早餐 / 单独小店，早餐外带。 / B 便携特色早餐 / 饭团/三明治等，标准化和冷链。 / C 早餐＋社",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 77,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 13,
+      "ratio_w_h": 0.462,
+      "chars": 335,
+      "title_preview": "选择做什么 / 福海桥和路潮汕面馆，2023年8月实拍。周边同类店型。 / 图源及授权 / 点击查看 / 传统早餐：熟悉的东西，最 / 讲效率 / 包点＋鸡蛋＋奶/豆饮，粥与面点，小菜单。 / 开业准备（含储备） / 约13万元",
+      "fit_font_char_weighted_median_px": {
+        "360": 13.11,
+        "390": 14.2,
+        "430": 15.66
+      },
+      "fit_font_chars_under_13_px_360": 136,
+      "image_count": 1,
+      "link_count": 4
+    },
+    {
+      "page": 14,
+      "ratio_w_h": 0.462,
+      "chars": 332,
+      "title_preview": "选择做什么 / 福田连城新天地三明治餐品，2024年3月实拍。非新和。 / 图源及授权 / 点击查看 / 便携早餐：每单卖贵一点， / 成本也要算细 / 饭团/三明治＋牛奶、无糖饮品。 / 开业准备（含储备） / 约13.9万元",
+      "fit_font_char_weighted_median_px": {
+        "360": 13.11,
+        "390": 14.2,
+        "430": 15.66
+      },
+      "fit_font_chars_under_13_px_360": 136,
+      "image_count": 1,
+      "link_count": 4
+    },
+    {
+      "page": 15,
+      "ratio_w_h": 0.462,
+      "chars": 348,
+      "title_preview": "选择做什么 / 福海桥头同泰时代广场零食店，2024年6月实拍。仅店型参照。 / 图源及授权 / 点击查看 / 早餐＋零食：下午也开店， / 就会更赚钱？ / 早餐＋水果、原味酸奶、包装饮品和少量零 / 食。 / 开业准备（含储",
+      "fit_font_char_weighted_median_px": {
+        "360": 14.58,
+        "390": 15.8,
+        "430": 17.42
+      },
+      "fit_font_chars_under_13_px_360": 139,
+      "image_count": 1,
+      "link_count": 4
+    },
+    {
+      "page": 16,
+      "ratio_w_h": 0.462,
+      "chars": 350,
+      "title_preview": "选择做什么 / 福海桥和路砂锅粥店，2023年8月实拍。历史门面，非当前经营证 / 明。 / 图源及授权 / 点击查看 / 全天营业：流水大，老板未 / 必赚得多 / 早餐、午间简餐、茶点，按合法条件试成人社 / 区晚餐。 / 开业",
+      "fit_font_char_weighted_median_px": {
+        "360": 13.11,
+        "390": 14.2,
+        "430": 15.66
+      },
+      "fit_font_chars_under_13_px_360": 143,
+      "image_count": 1,
+      "link_count": 4
+    },
+    {
+      "page": 17,
+      "ratio_w_h": 0.462,
+      "chars": 362,
+      "title_preview": "选择做什么 / AI生成的写实厨房场景示意，非新和实拍，也非已核实合作铺。 / 图源及授权 / 点击查看 / 分时合作：先借地方试试， / 再考虑独立开店 / 探索合法共享时段或柜台，选短菜单。 / 开业准备（含储备） / 约4",
+      "fit_font_char_weighted_median_px": {
+        "360": 14.58,
+        "390": 15.8,
+        "430": 17.42
+      },
+      "fit_font_chars_under_13_px_360": 147,
+      "image_count": 1,
+      "link_count": 4
+    },
+    {
+      "page": 18,
+      "ratio_w_h": 0.462,
+      "chars": 283,
+      "title_preview": "选择做什么 / 延长营业，不等于增加利润 / 早餐之后要不要加午餐、下午茶、晚餐？把每 / 一个新增时段当一间小生意算。 / ＋ 多卖出的那一份 / 新增收入 / － 每份多花的钱 / 食材、包装等 / － 多开门才出现的钱 / 人工、",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.05,
+        "390": 16.3,
+        "430": 17.97
+      },
+      "fit_font_chars_under_13_px_360": 104,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 19,
+      "ratio_w_h": 0.462,
+      "chars": 263,
+      "title_preview": "怎么经营 / 一家小店的五件事，比专业 / 术语更重要 / 做生意先问五件事：卖什么、卖多少钱、在哪 / 里卖、怎么让人知道、谁来做。 / 产品 / 少品类、稳定卫生、食材和过敏原透明。 / 价格 / 用正常付费复购检验每单收益，不",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 69,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 20,
+      "ratio_w_h": 0.462,
+      "chars": 286,
+      "title_preview": "怎么经营 / 20平方米，一天能做多少 / 单？ / 面积不是产能。最慢的一环决定一天能交付多 / 少份。 / 40秒/单 / 通用演示｜1个窗口 / 纯假设 / 约63单/小时 / 70%有效利用率 / 按40秒/单计算 / 约94单 / 连续9",
+      "fit_font_char_weighted_median_px": {
+        "360": 13.11,
+        "390": 14.2,
+        "430": 15.66
+      },
+      "fit_font_chars_under_13_px_360": 107,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 21,
+      "ratio_w_h": 0.462,
+      "chars": 287,
+      "title_preview": "怎么经营 / 福海桥头同泰时代广场小摊位，2024年6月实拍。仅小空间参照， / 并非已确认可分租。 / 图源及授权 / 点击查看 / 房租以外，谁真正帮你把店 / 做下去？ / 店小也需要有人备货、制作、收款、食品安 / 全、",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 85,
+      "image_count": 1,
+      "link_count": 4
+    },
+    {
+      "page": 22,
+      "ratio_w_h": 0.462,
+      "chars": 322,
+      "title_preview": "签约之前 / 签合同前，先确认这间铺能 / 不能做餐饮 / 如果经营主体、场地条件、食品经营项目不合 / 规，便宜也没有意义。 / 先查主体与食品许可 / 预包装与餐饮制售要求不同，按实际菜单 / 确认热食、冷食、饮品等食品经营",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 82,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 23,
+      "ratio_w_h": 0.462,
+      "chars": 247,
+      "title_preview": "签约之前 / 12万元转让费，得赚多少才 / 能补回来？ / 想用两年收回这12万元，就要每月多留下 / 5000元可用现金。 / 12万元 / 转让费例子 / 纯演示，不是本次所有铺位 / 5000元/月 / 24个月摊回 / 不含利息 / ",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 80,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 24,
+      "ratio_w_h": 0.462,
+      "chars": 345,
+      "title_preview": "钱到底怎么算 / 开店要花的钱，和要准备的 / 钱不同 / 包括开业支出与三个月备用金的五种起步预算 / （基准模拟）。下方条形中绿色代表备用金。 / 约13万元 / A 传统早餐 / 其中现金储备约6.1万元 / 约13.9万元 / ",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.18,
+        "390": 13.2,
+        "430": 14.55
+      },
+      "fit_font_chars_under_13_px_360": 160,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 25,
+      "ratio_w_h": 0.462,
+      "chars": 383,
+      "title_preview": "钱到底怎么算 / 不开张的时候，哪些钱照样 / 要付？ / 房租之外，工资、水电、物业和日常运营，还 / 有老板自己的时间。这里是首年基准每月固定 / 支出的估算。 / 2万元 / A 传统早餐 / 场地费4,500元；雇员6,50",
+      "fit_font_char_weighted_median_px": {
+        "360": 11.17,
+        "390": 12.1,
+        "430": 13.34
+      },
+      "fit_font_chars_under_13_px_360": 235,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 26,
+      "ratio_w_h": 0.462,
+      "chars": 328,
+      "title_preview": "钱到底怎么算 / 一份8块钱的早餐，老板能留 / 下多少？ / 以A传统早餐基准为例，先从每份卖价把每单 / 会发生的成本扣除。 / 8.10元 / 平均每单收入 / 混合菜单假设 / 约4.97元 / 原料及损耗后毛利 / 约61.4%毛",
+      "fit_font_char_weighted_median_px": {
+        "360": 13.11,
+        "390": 14.2,
+        "430": 15.66
+      },
+      "fit_font_chars_under_13_px_360": 130,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 27,
+      "ratio_w_h": 0.462,
+      "chars": 315,
+      "title_preview": "钱到底怎么算 / 卖100元，扣下食材还剩多 / 少？ / 这是毛利而不是净利润。不同菜单的原料和损 / 耗差别很大。 / A 传统早餐 / 约61元 / 再扣包装、费率、税费预算等后约53元 / B 特色早餐 / 约58元 / 再扣包装、",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.18,
+        "390": 13.2,
+        "430": 14.55
+      },
+      "fit_font_chars_under_13_px_360": 195,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 28,
+      "ratio_w_h": 0.462,
+      "chars": 267,
+      "title_preview": "钱到底怎么算 / 老板赚到的工资，不等于投 / 资回报 / 仍以A为例，模型第2年平均每月营业额约 / 4.19万元。 / 约7680元/月 / 没给自己算工资前，每月经 / 营结余 / 不是全部可提款的现金 / 约6760元/月 / 给自",
+      "fit_font_char_weighted_median_px": {
+        "360": 13.11,
+        "390": 14.2,
+        "430": 15.66
+      },
+      "fit_font_chars_under_13_px_360": 112,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 29,
+      "ratio_w_h": 0.462,
+      "chars": 302,
+      "title_preview": "钱到底怎么算 / 五种模式，第二年每个月会 / 怎样？ / 把第2年平均经营结果放一起看：已经扣除了 / 老板劳动估值，尚未扣折旧。 / 约赚920元 / A 传统早餐 / 月营业额约4.19万元 / 约亏1,340元 / B 便携早餐",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.18,
+        "390": 13.2,
+        "430": 14.55
+      },
+      "fit_font_chars_under_13_px_360": 159,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 30,
+      "ratio_w_h": 0.462,
+      "chars": 337,
+      "title_preview": "钱到底怎么算 / 每天需要多少份才能保本？ / 数字说明目标难度，不是实测订单。浅色条＝ / 成熟营业日订单假设；棕色条＝每日保本门 / 槛。 / 约179单/日 / A 传统早餐 / 成熟正常日假设212单 / 约140单/日 / B",
+      "fit_font_char_weighted_median_px": {
+        "360": 13.11,
+        "390": 14.2,
+        "430": 15.66
+      },
+      "fit_font_chars_under_13_px_360": 147,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 31,
+      "ratio_w_h": 0.462,
+      "chars": 318,
+      "title_preview": "钱到底怎么算 / 每天能卖够单，为什么还是 / 可能亏？ / 以传统早餐A为例，模型成熟营业日约212 / 单，比首年保本约179单多。但这不代表全年 / 每天都客满。 / 约212单 / 成熟营业日假设 / 不是当地测到的客流 / 约",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 88,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 32,
+      "ratio_w_h": 0.462,
+      "chars": 398,
+      "title_preview": "三年会怎样 / 生意做三年，钱会多还是 / 少？ / 三个可能情景下，36个月经营净现金。已算老 / 板工资、库存变化和设备维护，还没扣开业投 / 入。 / 净流出约 / 2.8万元 / A 传统 / 不顺：流出约49.7万元 / 顺利：进",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.18,
+        "390": 13.2,
+        "430": 14.55
+      },
+      "fit_font_chars_under_13_px_360": 242,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 33,
+      "ratio_w_h": 0.462,
+      "chars": 351,
+      "title_preview": "三年会怎样 / 同样开三年，哪一年才缓过 / 来？ / 基准模拟：大数字是第2年平均每月结果；右 / 侧对比第1年、第3年。均已计老板劳动，未扣 / 折旧。 / 赚约920元 / A 传统早餐 / 第1年亏约2,360元 / 第3年亏约",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.18,
+        "390": 13.2,
+        "430": 14.55
+      },
+      "fit_font_chars_under_13_px_360": 193,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 34,
+      "ratio_w_h": 0.462,
+      "chars": 308,
+      "title_preview": "三年会怎样 / 回本到底是回哪一笔钱？ / 计算口径：累计经营自由现金流，覆盖第0月 / 实际花掉或占用的开业支出，不包括尚留在账 / 上的备用金。 / 36个月未回本 / A 传统 / 乐观第15个月 / 36个月未回本 / B 便携",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.05,
+        "390": 16.3,
+        "430": 17.97
+      },
+      "fit_font_chars_under_13_px_360": 113,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 35,
+      "ratio_w_h": 0.462,
+      "chars": 294,
+      "title_preview": "三年会怎样 / 钱会不会在开店中途用完？ / 根据基准情景的现金余额最低点，计算硬撑持 / 续运营所需追加额。 / 无追加缺口 / A 传统早餐 / 仅模型内 / 约4.47万元 / B 便携早餐 / 第14个月首次不足 / 约4.46万元",
+      "fit_font_char_weighted_median_px": {
+        "360": 13.11,
+        "390": 14.2,
+        "430": 15.66
+      },
+      "fit_font_chars_under_13_px_360": 113,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 36,
+      "ratio_w_h": 0.462,
+      "chars": 250,
+      "title_preview": "三年会怎样 / 三年里，账户上的钱怎样变 / 化？ / 基准情景，从开业留在账上的备用金开始。每 / 条线代表一个模式的逐月现金余额。 / A 传统早餐 / 第36月：余额3.3万元 / B 特色早餐 / 第36月：缺口4.5万元 / ",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.14,
+        "390": 13.15,
+        "430": 14.5
+      },
+      "fit_font_chars_under_13_px_360": 145,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 37,
+      "ratio_w_h": 0.462,
+      "chars": 285,
+      "title_preview": "三年会怎样 / 如果同行降价、客人变少 / 呢？ / 假设竞争对手进入、采购价格波动、价格战 / 等，都会改变生意。 / 少约4.8万元 / A降价10% / 本来约1.1万元年经营利润 / 少约10.3万元 / D降价10% / 原料绝对",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.18,
+        "390": 13.2,
+        "430": 14.55
+      },
+      "fit_font_chars_under_13_px_360": 138,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 38,
+      "ratio_w_h": 0.462,
+      "chars": 394,
+      "title_preview": "三年会怎样 / 还没回本，就关门会怎样？ / 假设基准场景第6个月清算退出，五模式测算 / 净损失如下。 / 约亏10.2万元 / A 传统 / 已扣模拟的可回收净额 / 约亏11.8万元 / B 便携 / 已扣模拟的可回收净额 / 约亏1",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.18,
+        "390": 16.45,
+        "430": 18.14
+      },
+      "fit_font_chars_under_13_px_360": 140,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 39,
+      "ratio_w_h": 0.462,
+      "chars": 322,
+      "title_preview": "开始前怎么试 / 先做7天调研，不要先交一大 / 笔转让费 / 你最需要的不是再多几个行业统计，而是这家 / 候选铺的真实付费需求和费用。 / 走访几条公共商业街区 / 按可见门店和一般商业消费机会匿名汇 / 总，记录工作日、周",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 89,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 40,
+      "ratio_w_h": 0.462,
+      "chars": 348,
+      "title_preview": "开始前怎么试 / 用一段小规模试营业，验证 / 这笔账 / 只有经营许可和合同合法条件成立，才考虑7– / 14天小菜单真实付费试验。 / 每天记什么？ / 实际订单、正常成交价、食材采购价、包 / 装、报废、人员工时、出餐速度",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 83,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 41,
+      "ratio_w_h": 0.462,
+      "chars": 250,
+      "title_preview": "开始前怎么试 / 最后，你现在可以做一个更 / 好的决定 / 不是问“哪个模式最容易赚钱”，而是问自己 / 有没有做到这个模式所需的条件。 / 资金 / 能接受的最大资金占用和损失是多少？ / 时间 / 能承担多少实际工时，谁能替班",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 82,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 42,
+      "ratio_w_h": 0.462,
+      "chars": 346,
+      "title_preview": "资料说明 / 这份报告，哪部分是真实 / 的？ / 三类信息读法不同，所有数字都能追溯回原研 / 究、假设或待核验清单。 / 公开事实 / 主管部门目录、统计资料、品牌官方及可追溯 / 目录。宏观资料和旧资料注明地域与时期。 / 挂",
+      "fit_font_char_weighted_median_px": {
+        "360": 15.32,
+        "390": 16.6,
+        "430": 18.3
+      },
+      "fit_font_chars_under_13_px_360": 103,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 43,
+      "ratio_w_h": 0.462,
+      "chars": 392,
+      "title_preview": "查资料 / 找到的商户记录（1） / 以下是已去重的公开候选名字和区域，并不是 / 当前营业确认或完整普查。 / 1点点·福永新和店 / 新和二区、悦康路商业带 · A [S01] / 快乐番薯·宝安新和店 / 新和二区 · B",
+      "fit_font_char_weighted_median_px": {
+        "360": 11.82,
+        "390": 12.8,
+        "430": 14.11
+      },
+      "fit_font_chars_under_13_px_360": 239,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 44,
+      "ratio_w_h": 0.462,
+      "chars": 392,
+      "title_preview": "查资料 / 找到的商户记录（2） / 以下是已去重的公开候选名字和区域，并不是 / 当前营业确认或完整普查。 / 老字号永和自选快餐（新和店） / 悦盛一路商业带 · B [S06] / 潮味自选快餐 / 新和社区商业北街 · ",
+      "fit_font_char_weighted_median_px": {
+        "360": 11.82,
+        "390": 12.8,
+        "430": 14.11
+      },
+      "fit_font_chars_under_13_px_360": 229,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 45,
+      "ratio_w_h": 0.462,
+      "chars": 300,
+      "title_preview": "查资料 / 找到的商户记录（3） / 以下是已去重的公开候选名字和区域，并不是 / 当前营业确认或完整普查。 / 勇和瑞兴便利店 / 福园一路工业园区 · B [S13] / 潮州早餐店 / 新和一区 · C [S14] / 洪城美",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.0,
+        "390": 13.0,
+        "430": 14.33
+      },
+      "fit_font_chars_under_13_px_360": 182,
+      "image_count": 0,
+      "link_count": 2
+    },
+    {
+      "page": 46,
+      "ratio_w_h": 0.462,
+      "chars": 319,
+      "title_preview": "查资料 / 全部租赁挂牌线索（1） / 2026年11月27日检索，八条目标社区加三条 / 邻近对照。不是成交价。 / 新和三区朵拉国际社区 / 30㎡ · 1,180元/月，餐饮条件未知 / 新和五区卤味铺 / 28㎡ · 1",
+      "fit_font_char_weighted_median_px": {
+        "360": 11.82,
+        "390": 12.8,
+        "430": 14.11
+      },
+      "fit_font_chars_under_13_px_360": 202,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 47,
+      "ratio_w_h": 0.462,
+      "chars": 263,
+      "title_preview": "查资料 / 全部租赁挂牌线索（2） / 2026年11月27日检索，八条目标社区加三条 / 邻近对照。不是成交价。 / 新和二区悦盛三路 / 100㎡ · 10,000元/月，烤鱼小炒 / 新和二区饮品店 / 80㎡ · 16,",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.0,
+        "390": 13.0,
+        "430": 14.33
+      },
+      "fit_font_chars_under_13_px_360": 160,
+      "image_count": 0,
+      "link_count": 3
+    },
+    {
+      "page": 48,
+      "ratio_w_h": 0.462,
+      "chars": 438,
+      "title_preview": "查资料 / 照片从哪里来？（1） / 每张图均注明地域和时间。真实照片仅作历史 / 街区或同类店型参照；生成图单独标记。 / 福海桥和路沿街商铺，2023年8月实拍。仅周边参 / 照，非新和三区。 / 作者：JMUAIANW",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.0,
+        "390": 13.0,
+        "430": 14.33
+      },
+      "fit_font_chars_under_13_px_360": 245,
+      "image_count": 0,
+      "link_count": 10
+    },
+    {
+      "page": 49,
+      "ratio_w_h": 0.462,
+      "chars": 422,
+      "title_preview": "查资料 / 照片从哪里来？（2） / 每张图均注明地域和时间。真实照片仅作历史 / 街区或同类店型参照；生成图单独标记。 / 福海桥和路潮汕面馆，2023年8月实拍。周边同类 / 店型。 / 作者：JMUAIANWNC 33",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.0,
+        "390": 13.0,
+        "430": 14.33
+      },
+      "fit_font_chars_under_13_px_360": 227,
+      "image_count": 0,
+      "link_count": 10
+    },
+    {
+      "page": 50,
+      "ratio_w_h": 0.462,
+      "chars": 259,
+      "title_preview": "查资料 / 照片从哪里来？（3） / 每张图均注明地域和时间。真实照片仅作历史 / 街区或同类店型参照；生成图单独标记。 / AI生成的写实厨房场景示意，非新和实拍，也非已 / 核实合作铺。 / 作者：AI生成｜授权：生成示",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.18,
+        "390": 13.2,
+        "430": 14.55
+      },
+      "fit_font_chars_under_13_px_360": 123,
+      "image_count": 0,
+      "link_count": 4
+    },
+    {
+      "page": 51,
+      "ratio_w_h": 0.462,
+      "chars": 529,
+      "title_preview": "查资料 / 公开资料索引（1） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / 广东省市场监督管理局：《食品经营许可和备案实施细 / 则》，粤市监规字〔2025〕1号，2025-",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 453,
+      "image_count": 0,
+      "link_count": 8
+    },
+    {
+      "page": 52,
+      "ratio_w_h": 0.462,
+      "chars": 476,
+      "title_preview": "查资料 / 公开资料索引（2） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / 深圳市人力资源和社会保障局：《关于调整我市最低工 / 资标准的通知》，2026-08-26公布，2",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 402,
+      "image_count": 0,
+      "link_count": 8
+    },
+    {
+      "page": 53,
+      "ratio_w_h": 0.462,
+      "chars": 344,
+      "title_preview": "查资料 / 公开资料索引（3） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / OpenRice快乐番薯宝安新和店（直接访问成功；索引 / 约3周） / 打开原始资料 → / OpenR",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 272,
+      "image_count": 0,
+      "link_count": 8
+    },
+    {
+      "page": 54,
+      "ratio_w_h": 0.462,
+      "chars": 360,
+      "title_preview": "查资料 / 公开资料索引（4） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / Trip Moments宝安食物推荐（用户游记，发布日期未 / 确认；不能代替真实菜单及销量） / 打",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 288,
+      "image_count": 0,
+      "link_count": 8
+    },
+    {
+      "page": 55,
+      "ratio_w_h": 0.462,
+      "chars": 303,
+      "title_preview": "查资料 / 公开资料索引（5） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / Exa地点聚合结果（2026-11-27检索，无店家实时经营 / 数据） / 打开原始资料 → / Exa",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 234,
+      "image_count": 0,
+      "link_count": 8
+    },
+    {
+      "page": 56,
+      "ratio_w_h": 0.462,
+      "chars": 352,
+      "title_preview": "查资料 / 公开资料索引（6） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / 安居客新兴工业区100㎡挂牌，约4天索引 / 打开原始资料 → / 安居客新和二区万州烤鱼100㎡挂牌",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 281,
+      "image_count": 0,
+      "link_count": 8
+    },
+    {
+      "page": 57,
+      "ratio_w_h": 0.462,
+      "chars": 394,
+      "title_preview": "查资料 / 公开资料索引（7） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / 深圳政府在线《深圳市宝安区鹏晖中英文学校》学校目 / 录（历史资料） / 打开原始资料 → / 宝安区福新",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 321,
+      "image_count": 0,
+      "link_count": 8
+    },
+    {
+      "page": 58,
+      "ratio_w_h": 0.462,
+      "chars": 465,
+      "title_preview": "查资料 / 公开资料索引（8） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / 深圳规划和自然资源局公开《深圳市标准地名词典》历 / 史口径，第一编第48页 / 打开原始资料 → / 宝",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 390,
+      "image_count": 0,
+      "link_count": 8
+    },
+    {
+      "page": 59,
+      "ratio_w_h": 0.462,
+      "chars": 425,
+      "title_preview": "查资料 / 公开资料索引（9） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / 深圳气象局《深圳市气候概况及四季特征》（2026年网 / 站访问） / 打开原始资料 → / 宝安区政府《",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 351,
+      "image_count": 0,
+      "link_count": 8
+    },
+    {
+      "page": 60,
+      "ratio_w_h": 0.462,
+      "chars": 431,
+      "title_preview": "查资料 / 公开资料索引（10） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / 艾媒咨询，《深夜与工位的慰藉——2025年快销食品行 / 业消费者认知研究报告》发布页，2026",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 356,
+      "image_count": 0,
+      "link_count": 8
+    },
+    {
+      "page": 61,
+      "ratio_w_h": 0.462,
+      "chars": 336,
+      "title_preview": "查资料 / 公开资料索引（11） / 点下方资料标题，可直接打开原始网页。研究 / 检索日期为2026年11月27日。 / 新华每日电讯，《凌晨2点，记者走进一家“共享早餐 / 铺”……》，2023-02-21 / 打开原始",
+      "fit_font_char_weighted_median_px": {
+        "360": 12.92,
+        "390": 14.0,
+        "430": 15.44
+      },
+      "fit_font_chars_under_13_px_360": 267,
+      "image_count": 0,
+      "link_count": 6
+    }
+  ],
+  "out_of_bounds_spans": []
+}
