@@ -11,3 +11,6 @@
 - [reviews/INDEPENDENT_REVIEW.md](reviews/INDEPENDENT_REVIEW.md)：独立质量监督、复算和PDF检查
 
 复算：在 models/ 中运行 Python model.py（输出CSV及JSON，默认写入同目录）。最终报告和完整工程可随独立交付包获得。请更新实际客流、租约及成本后重新建模。
+
+## V2 手机优先读者版
+新版报告不覆盖 V1 研究档案：390×844pt 单栏手机页，真实摄影优先、商业数据人性化、内链目录可跳转。竞争样稿、工具/图像实验和独立评审均位于 [v2/PROJECT_HOME.md](v2/PROJECT_HOME.md)；完整移动报告与工程随本轮独立交付包提供。
