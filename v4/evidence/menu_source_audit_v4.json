@@ -1,0 +1,22 @@
+[
+  {
+    "source_id": "KFC-XINHE",
+    "source_url": "https://drivethruindex.com/restaurants/cn/gd/%E6%B7%B1%E5%9C%B3/kfc-SZ2103",
+    "menu_body_date": "2026-11-26",
+    "access_date": "2026-11-27",
+    "count": 83,
+    "sha256": "fad03ecffebd0d7494e97431dd1e4c9b76b763dace0942d9adc40ca892b132bd",
+    "source_type": "第三方价格观测者称来自品牌App自提价",
+    "limits": "不是餐厅直接确认、外卖配送价、消费小票、早餐菜单、顾客订单均价或销量"
+  },
+  {
+    "source_id": "PH-QIAOTOU",
+    "source_url": "https://drivethruindex.com/restaurants/cn/gd/%E6%B7%B1%E5%9C%B3/pizza-hut-GZ5650",
+    "menu_body_date": "2026-11-26",
+    "access_date": "2026-11-27",
+    "count": 98,
+    "sha256": "665b1ac4d2d23a287a721cd065df69d8f66474158f12c89affcb50c868dd2c0c",
+    "source_type": "第三方价格观测者称来自品牌App自提价",
+    "limits": "不是餐厅直接确认、外卖配送价、消费小票、早餐菜单、顾客订单均价或销量"
+  }
+]
