@@ -41,3 +41,26 @@
 | v4/assets/PHOTO_REFERENCES_V4.json | 13624 | `d8a7090ca23c66f27b3ae8a4f92558e1ab17fdcb` | `722f9331be1a244c16ebbde4ee12afb76e082d4a` |
 
 注：already-matched 表示该路径同步前在 main 已存在且 blob 完全一致，不生成重复提交。
+
+## 第二批：报告构建、交互模拟器及独立检查
+
+本批次16/16文件验证成功，与第一批合计49/49文件原始字节一致。未包含最终PDF审查结论及根文档/V4主页和任务（由总控完成）。
+
+| 路径 | 字节 | 本地=远端 blob SHA | 创建/更新 commit |
+|---|---:|---|---|
+| v4/design/atlas_engine.py | 13309 | `2200adb31fa6ddc79201c7ea236f470f0d99fb41` | `82190bf961f105b6d4d787e92013634458f9a867` |
+| v4/design/build_report_v4.py | 66659 | `1214590c7fa8cd4c2b291b2003170ec472190d06` | `d4b66498f7e26676c869c54738cb5cf3f865f32c` |
+| v4/design/FINAL_DESIGN_V4.md | 2315 | `7164420e73fb0280dded5c0bff86c6647547fe43` | `b30649af718774e56b73ff82b3e1d7e11ea95717` |
+| v4/design/build_explorer_v4.py | 55367 | `f0788f1599b12822bc4876635ee723649cb450e1` | `aaf58eca5898e54651a581a1e48295b96bd76629` |
+| v4/design/EXPLORER_V4.md | 5978 | `af9ba1b693bef965798ec84b5ebb7cf9e0d2981b` | `3afb5a31584896b3ece856b7f54dd7e12c2975da` |
+| v4/design/EXPLORER_V4_VALIDATION.txt | 803 | `409e4ff3a992d83b4274b09cb74d63e599584b94` | `0b90c3aaeb8e4da769035131c46373944dde0fb2` |
+| v4/design/test_explorer_v4.py | 4965 | `3682668da557766af7e875c8a3705de8849452c2` | `12b3404017b201ff03fd60b07b8a14b6a9bce544` |
+| v4/design/test_explorer_v4_node.js | 6500 | `04b21001d25904787f4046a60ae69fd4d47b1545` | `7ed26a181f8ce300c9d6a81b40dc6251fe0c8ae0` |
+| v4/assets/GENERATED_SCENE_MANIFEST.md | 728 | `37f6bcb2fbc04b9b7274e295dab6659819b6de2f` | `842119f3b9814db6e588a67bd91ea38885dc5061` |
+| v4/tooling/ITERATION_LOG_V4.md | 2311 | `be00be5a008a999916807c7f724667fbd2b05470` | `96f237ddc655f08d76f897e085dbb09d7aa52f55` |
+| v4/README.md | 1238 | `b36a6b46a6d4690efdcc4d8567f15abebbbacd3e` | `1456f3e303f9008d0e6cb54d188211b39dcc8a2d` |
+| v4/reviews/GOAL_AUDIT_PLAN.md | 9612 | `7ae05d769c049164a967622b4a498f696405fbaf` | `3ca389ed4612996b50d98ef9c0749431d386bfb4` |
+| v4/reviews/PROTOTYPE_REVIEW.md | 3919 | `eccd4e00fee1406045ba154c080fbc9037a02e23` | `3c544252649d50e4f11f46fecb9cd87f4240f0d0` |
+| v4/reviews/EVIDENCE_SPOTCHECK.md | 4635 | `d06cbabf9bfca142bad6007e236ab0806fb6319d` | `5d48449a8080d3810aae77cfb0d8e9923d80675d` |
+| v4/reviews/independent_finance_v4.py | 12059 | `783fc2e232d8375b9c321c654b21704ee12e55b2` | `c91dcb2ac5c9d8eed404b7bd67595c7fcc7d4168` |
+| v4/reviews/independent_finance_final.txt | 23 | `89d3366a9073f45e764ab1027366af472a09375d` | `66a34121d94a191653b8dad1f5520a1e207afd23` |
