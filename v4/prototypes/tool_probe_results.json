@@ -1,0 +1,65 @@
+{
+  "reportlab": {
+    "text": "开业资金14.15万元：付款及占用11.72万，\n备用2.43万。模拟净收入32,860元。\n",
+    "extractable": true,
+    "fonts": [
+      [
+        2,
+        "n/a",
+        "Type1",
+        "Helvetica",
+        "F1",
+        "WinAnsiEncoding"
+      ],
+      [
+        3,
+        "n/a",
+        "Type0",
+        "STSong-Light",
+        "F2",
+        "UniGB-UCS2-H"
+      ]
+    ]
+  },
+  "pillow": {
+    "extractable": false,
+    "raster": "1170x540"
+  },
+  "chromium": {
+    "found": true,
+    "returncode": 127,
+    "stdout": "",
+    "stderr": "/usr/bin/chromium: 9: [: 5225713664: unexpected operator\n/usr/bin/chromium: 153: exec: /usr/lib/chromium/chromium: not found\n"
+  },
+  "fitz": {
+    "pdf_pages": 3,
+    "extractable_characters": 1047,
+    "fonts": [
+      [
+        5,
+        "otf",
+        "Type0",
+        "Noto Sans CJK SC Regular",
+        "reg",
+        "Identity-H"
+      ],
+      [
+        11,
+        "otf",
+        "Type0",
+        "Noto Sans CJK SC Bold",
+        "bold",
+        "Identity-H"
+      ],
+      [
+        16,
+        "otf",
+        "Type0",
+        "Noto Serif CJK SC Bold",
+        "serif",
+        "Identity-H"
+      ]
+    ],
+    "links": 3
+  }
+}
