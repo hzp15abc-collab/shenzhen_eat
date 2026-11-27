@@ -1,0 +1,1 @@
+PASS; 356 causal identity checks. All baseline counts: 135 configurations, 4860 monthly rows, 540 exits. 30 asymmetric platform fee sensitivity experiments, 11 evidence-linked conditional tests. 5 price sensitivity rows corrected with absolute ingredient cost fixed. V3 report SHA256 62d07ef6bbb1039d191ffc6ed15d5ccb167c79968a1fa7b1b86300d1c73cca83; no V3 files changed.
