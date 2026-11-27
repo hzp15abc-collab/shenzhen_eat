@@ -1,0 +1,234 @@
+{
+  "as_of": "2026-11-27",
+  "currency": "CNY",
+  "scope": "深圳宝安福海新和社区；相邻样本单列",
+  "source": "market_rent.csv",
+  "quality": "listing asks / scenarios; no verified deal",
+  "modes": {
+    "A": {
+      "area_m2": {
+        "low": 20,
+        "base": 30,
+        "high": 40
+      },
+      "rent": {
+        "low": 3000,
+        "base": 5000,
+        "high": 8500
+      },
+      "transfer": {
+        "low": 0,
+        "base": 42000,
+        "high": 110000
+      },
+      "deposit_months": {
+        "low": 1,
+        "base": 2,
+        "high": 3
+      },
+      "mature_orders_day": {
+        "low": 55,
+        "base": 125,
+        "high": 210
+      },
+      "mature_onsite_orders_day": 125,
+      "reference_exposures_per_day": 1100,
+      "base_combined_conversion": 0.11363636363636363,
+      "offline_ticket_cny": {
+        "low": 6,
+        "base": 8.5,
+        "high": 10
+      },
+      "comparable_source_ids": [
+        "MR02",
+        "MR04",
+        "MR12",
+        "MR19",
+        "MR10"
+      ],
+      "rent_basis": "scenario, not observed transaction",
+      "demand_basis": "hypothetical demand scenarios, not observed; mature order count before capacity cap or ramp; split across channels, no automatic addition",
+      "management_fee_basis": "no locally verified rates; separate scenario, never included in rent by default",
+      "transfer_basis": "low zero direct lease if found; base and stress from advertised business transfer comparables, not itemised capex; subtract verified duplicate equipment/fit-out from separate costs"
+    },
+    "B": {
+      "area_m2": {
+        "low": 18,
+        "base": 28,
+        "high": 38
+      },
+      "rent": {
+        "low": 2800,
+        "base": 4500,
+        "high": 7500
+      },
+      "transfer": {
+        "low": 0,
+        "base": 42000,
+        "high": 110000
+      },
+      "deposit_months": {
+        "low": 1,
+        "base": 2,
+        "high": 3
+      },
+      "mature_orders_day": {
+        "low": 35,
+        "base": 85,
+        "high": 145
+      },
+      "mature_onsite_orders_day": 85,
+      "reference_exposures_per_day": 850,
+      "base_combined_conversion": 0.1,
+      "offline_ticket_cny": {
+        "low": 10,
+        "base": 12.5,
+        "high": 16
+      },
+      "comparable_source_ids": [
+        "MR04",
+        "MR12",
+        "MR19",
+        "MR15",
+        "MR10"
+      ],
+      "rent_basis": "scenario, not observed transaction",
+      "demand_basis": "hypothetical demand scenarios, not observed; mature order count before capacity cap or ramp; split across channels, no automatic addition",
+      "management_fee_basis": "no locally verified rates; separate scenario, never included in rent by default",
+      "transfer_basis": "low zero direct lease if found; base and stress from advertised business transfer comparables, not itemised capex; subtract verified duplicate equipment/fit-out from separate costs"
+    },
+    "C": {
+      "area_m2": {
+        "low": 30,
+        "base": 45,
+        "high": 60
+      },
+      "rent": {
+        "low": 4000,
+        "base": 6500,
+        "high": 10000
+      },
+      "transfer": {
+        "low": 0,
+        "base": 60000,
+        "high": 120000
+      },
+      "deposit_months": {
+        "low": 1,
+        "base": 2,
+        "high": 3
+      },
+      "mature_orders_day": {
+        "low": 55,
+        "base": 125,
+        "high": 210
+      },
+      "mature_onsite_orders_day": 125,
+      "reference_exposures_per_day": 1100,
+      "base_combined_conversion": 0.11363636363636363,
+      "offline_ticket_cny": {
+        "low": 8,
+        "base": 10,
+        "high": 13
+      },
+      "comparable_source_ids": [
+        "MR05",
+        "MR19",
+        "MR21",
+        "MR09",
+        "MR15",
+        "MR22"
+      ],
+      "rent_basis": "scenario, not observed transaction",
+      "demand_basis": "hypothetical demand scenarios, not observed; mature order count before capacity cap or ramp; split across channels, no automatic addition",
+      "management_fee_basis": "no locally verified rates; separate scenario, never included in rent by default",
+      "transfer_basis": "low zero direct lease if found; base and stress from advertised business transfer comparables, not itemised capex; subtract verified duplicate equipment/fit-out from separate costs"
+    },
+    "D": {
+      "area_m2": {
+        "low": 45,
+        "base": 70,
+        "high": 95
+      },
+      "rent": {
+        "low": 6500,
+        "base": 10000,
+        "high": 16000
+      },
+      "transfer": {
+        "low": 0,
+        "base": 100000,
+        "high": 155000
+      },
+      "deposit_months": {
+        "low": 1,
+        "base": 2,
+        "high": 3
+      },
+      "mature_orders_day": {
+        "low": 70,
+        "base": 170,
+        "high": 285
+      },
+      "mature_onsite_orders_day": 170,
+      "reference_exposures_per_day": 1500,
+      "base_combined_conversion": 0.11333333333333333,
+      "offline_ticket_cny": {
+        "low": 13,
+        "base": 16,
+        "high": 22
+      },
+      "comparable_source_ids": [
+        "MR07",
+        "MR08",
+        "MR13",
+        "MR14",
+        "MR20"
+      ],
+      "rent_basis": "scenario, not observed transaction",
+      "demand_basis": "hypothetical demand scenarios, not observed; mature order count before capacity cap or ramp; split across channels, no automatic addition",
+      "management_fee_basis": "no locally verified rates; separate scenario, never included in rent by default",
+      "transfer_basis": "low zero direct lease if found; base and stress from advertised business transfer comparables, not itemised capex; subtract verified duplicate equipment/fit-out from separate costs"
+    },
+    "E": {
+      "area_m2": {
+        "low": 8,
+        "base": 12,
+        "high": 20
+      },
+      "rent": {
+        "low": 1500,
+        "base": 3000,
+        "high": 5000
+      },
+      "transfer": {
+        "low": 0,
+        "base": 0,
+        "high": 0
+      },
+      "deposit_months": {
+        "low": 1,
+        "base": 2,
+        "high": 3
+      },
+      "mature_orders_day": {
+        "low": 30,
+        "base": 75,
+        "high": 120
+      },
+      "mature_onsite_orders_day": 75,
+      "reference_exposures_per_day": 750,
+      "base_combined_conversion": 0.1,
+      "offline_ticket_cny": {
+        "low": 6,
+        "base": 8,
+        "high": 10
+      },
+      "comparable_source_ids": [],
+      "rent_basis": "hypothetical partition sharing; no offer found",
+      "demand_basis": "hypothetical demand scenarios, not observed; mature order count before capacity cap or ramp; split across channels, no automatic addition",
+      "management_fee_basis": "no locally verified rates; separate scenario, never included in rent by default",
+      "transfer_basis": "no business transfer; independent entry fee only if negotiated; deposit separate"
+    }
+  }
+}
