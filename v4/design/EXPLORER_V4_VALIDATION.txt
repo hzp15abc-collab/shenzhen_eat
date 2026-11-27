@@ -1,0 +1,4 @@
+PASS: 135 scenario combinations, 405 channel detail selections, 540 exit selections; 11 evidence conditions, 30 platform-asymmetric cases, 5 corrected price sensitivities; all summary fields refer to source rows; no NaN/undefined/Infinity; source hashes verified; no external-resource or network calls. Node VM uses lightweight DOM/test doubles, not browser pixels.
+SKIP browser verification: a usable Chromium binary is unavailable. Set EXPLORER_CHROME to an actual binary or install Playwright Chromium. JS functional fallback: node v4/design/test_explorer_v4_node.js. BrowserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell
+
+Browser test exit status: 77 (77 means unavailable binary, skipped).
