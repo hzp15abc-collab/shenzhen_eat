@@ -1,0 +1,137 @@
+{
+  "as_of": "2026-11-27",
+  "purpose": "V4 new customer/product/substitute/operations evidence, with scope boundaries",
+  "scope": "深圳宝安福海新和社区；同街道其他社区、福永及深圳其他区独立标注",
+  "status": "public desk research and test hypotheses; not measured foot traffic, local current sales or contract prices",
+  "evidence": [
+    {
+      "id": "CP01", "source": "宝安区教育局2026福新小学部门预算", "type": "official primary budget PDF", "published": "2026-04-24", "geography": "target school in Xinhe community", "url": "https://www.sz.gov.cn/attachment/1/1707/1707300/12781639.pdf", "location": "PDF pages 5-6 (printed 2-3)",
+      "facts": {"public_primary_school": true, "students_and_staff_increased": true, "current_student_count": null, "meal_fees_included_in_budget": true, "student_self_operated_canteen_expenditure_included": true, "lunch_rest_management_budget_cny": 1330000, "after_school_service_budget_cny": 960000, "general_admin_including_student_canteen_cny": 5903600, "breakfast_supply_or_rate": null},
+      "use": "supersedes simple historical assumption of school external meal delivery; evidence of school catering substitute",
+      "boundary": "general admin total not catering-only expenditure; no current enrolment, breakfast offering, external purchases or attendance data"
+    },
+    {
+      "id": "CP02", "source": "深圳市政府鹏晖中英文学校官方目录", "type": "official institutional directory, historical", "published": "undated profile; historical and includes 2022 details (not current operational record)", "geography": "target school in Xinhe", "url": "https://www.sz.gov.cn/school/ba/jnygz/content/post_9457237.html",
+      "facts": {"institution": "深圳市宝安区鹏晖中英文学校", "private": true, "education": "九年一贯制", "historical_meal": "堂食", "current_enrollment": null, "breakfast_supply": null},
+      "use": "institution type and possible internal meal substitute",
+      "boundary": "no household income inference from fees or school type; no individual movements"
+    },
+    {
+      "id": "CP03", "source": "深圳坤拓流体技术股份有限公司2024组织温室气体排放核查报告", "type": "third-party verification report hosted by company", "published": "2025-03-18", "data_period": "2024-01-01 to 2024-12-31", "geography": "target community", "url": "https://www.keyto.com/uploads/file/20250513/f2f405023992a51ebad4696ed3a3146d.pdf", "location": "printed p2",
+      "facts": {"canteen_outsourced": true, "utility_billed_separately": true, "menu": null, "outside_access": null},
+      "use": "direct evidence of an employer-internal catering substitute in Xinhe",
+      "boundary": "does not imply all factories have canteens; no current operation or worker count"
+    },
+    {
+      "id": "CP04", "source": "宝安日报/宝安融媒，南方+：最低7元三菜一汤！宝安人：真香！", "type": "journalist visited, observed price board", "published": "2025-05-08", "geography": "Fuhai street other industrial parks, not Xinhe precise block", "url": "https://static.nfnews.com/content/202505/08/c11268879.html?enterColumnId=13298",
+      "facts": {"robotics_park": "中粮（福安）机器人科技园", "park_companies": 26, "park_employees_min": 3500, "canteen_capacity_seats": 500, "canteen_area_m2": 1025, "menu_prices_cny": [{"item": "一荤一素", "price": 10}, {"item": "两荤一素", "price": 12}, {"item": "三荤一素", "price": 14}], "other_canteens": [{"name": "福安智造产业园惠民大食堂", "seats": 200}, {"name": "立新湖创意园食堂", "seats": 300}, {"name": "中晟会港湾便民食堂", "seats": 300}, {"name": "瀚宇湾区创新港福海工会大食堂", "seats": 800}], "additional_planned_at_publication": 5},
+      "use": "competitive lunch price stress for D; employee population is not outside restaurant flow",
+      "boundary": "historical board, non-target venue, no confirmed current menu, access/subsidy, profit, or daily number served; headline 7 yuan not the Fuhai park menu"
+    },
+    {
+      "id": "CP05", "source": "深圳市民政局长者饭堂和助餐点一览表", "type": "official directory", "published": "2026-07-14", "geography": "Fuhai other communities", "url": "https://mzj.sz.gov.cn/szmz/pc/zwgk/jcxxgk/ztzl/shjzyshfllyzt/cjwt_183192/shfl_183194/content/post_2915618.html",
+      "facts": {"listed": ["福安长者饭堂（新田社区长者饭堂）","长者饭堂（欢筷）","塘尾社区华强城小区长者饭堂","展城社区会展湾东城小区长者饭堂"]},
+      "use": "resident and elderly meal substitute",
+      "boundary": "entries 195–198, not confirmed within door trade area; no demand or access estimate"
+    },
+    {
+      "id": "CP06", "source": "卫生研究. 2021年中国城市18～60岁成年居民早餐就餐情况及相关因素", "type": "peer-reviewed cross-sectional online convenience survey", "published": "2026-03-19", "data_period": "2021-07 to 2021-08", "geography": "31 Chinese provincial regions; non-local", "url": "https://wsyj.cbpt.cnki.net/portal/journal/portal/client/paper/5078fd4c8f502e3f505967ddb37f4613", "doi": "10.19813/j.cnki.weishengyanjiu.2026.02.013",
+      "facts": {"n": 11162, "adult_age_interval": [18, 60], "all_5_workday_breakfast_n": 9089, "all_5_workday_breakfast_pct": 81.4, "both_rest_day_breakfast_n": 7821, "both_rest_day_breakfast_pct": 70.1, "difference_pp": 11.3},
+      "use": "compare workday and rest-day adult testing separately; do not assume uniform weekly demand",
+      "boundary": "not outside purchasing rate, not local population, not Shenzhen observations, convenience sample and 2021 data"
+    },
+    {
+      "id": "CP07", "source": "界面新闻，7-Eleven在美宜佳的包围中上强度", "type": "journalist visited", "published": "2026-10-30", "geography": "Shenzhen Tencent headquarters park, not Fuhai", "url": "https://www.jiemian.com/article/15272717.html",
+      "facts": {"menu_prices_cny": [{"item": "部分大口饭团", "price": 7.5}, {"item": "指定主食+饮品套餐1", "price": 12.9}, {"item": "指定主食+饮品套餐2", "price": 14.9}, {"item": "420ml椰子水", "price": 5.9}, {"item": "部分板栗茶/玄米茶", "price": 5}], "new_private_label_fresh_food_h1_2026_approx": 30},
+      "use": "B+C menu benchmarks; demonstrate real ingredient/combination competition and product iterations",
+      "boundary": "single branded store, dated board, not comparable margin, no transaction or nearby selling price"
+    },
+    {
+      "id": "CP08", "source": "美宜多官方动态：美宜多+零食有鸣双品牌融合店福围店", "type": "company opening announcement", "published": "2026-03-12", "event_date": "2026-01-31", "geography": "Baoan Fuyong Fuwei community, different street/community", "url": "https://www.meiyiduo.com/html/news_220.html",
+      "facts": {"configuration": "一店双区 生鲜与零食", "snack_skus_self_report_min": 1000, "menu_price": null},
+      "use": "actual adjacent-area coexistence of frequent household grocery needs with discretionary snacks",
+      "boundary": "company claimed opening/concept, not independent operation, shared agreement or profit, not C shop capacity"
+    },
+    {
+      "id": "CP09", "source": "深圳新闻网：深圳地铁从早餐车到社区食堂", "type": "news report", "published": "2026-04-17", "geography": "Shenzhen, not target block", "url": "https://www.sznews.com/news/content/mb/2026-04/17/content_32019536.htm",
+      "facts": {"breakfast_points": 120, "products": ["热包子","现磨豆浆"], "Futian_store": "深云包子铺"},
+      "use": "commuter breakfast substitutes and distribution innovations",
+      "boundary": "no evidence these exact goods available at target point; not a store flow estimate"
+    },
+    {
+      "id": "CP10", "source": "宝安区教育局人员招聘名录", "type": "official list", "published": "2025-11-28", "geography": "target school", "url": "https://www.baoan.gov.cn/jyj/zwgk/rsxx/ryzp/index_5.html",
+      "facts": {"penghui_institution_recent_listing": true},
+      "use": "recent corroboration institution",
+      "boundary": "does not prove current size or food service; no personal contact stored"
+    },
+    {
+      "id": "CP11", "source": "消费日报：早餐经济为何这么卷", "type": "news report historical promotion price", "published": "2024-04-23", "geography": "Shenzhen municipal example", "url": "https://dzb.xfrb.com.cn/Html/2024-04-23/60426.html",
+      "facts": {"bus_breakfast_promotional_price": 8, "menu_combinations": 5},
+      "use": "A price anchor and pre-order service model historical case",
+      "boundary": "not 2026 current price or Xinhe product"
+    },
+    {
+      "id": "CP12", "source": "深圳市市场监督管理局政府在线咨询答复", "type": "official specific consultation response", "published": "2024-07-03", "geography": "Shenzhen", "url": "https://www.sz.gov.cn/hdjlpt/detail?pid=2938976&via=pc",
+      "facts": {"prepackaged_food_filing_same_address_only_one_subject": true, "applies_to": "仅销售预包装食品备案"},
+      "use": "E requires actual property/subject/business category confirmation",
+      "boundary": "specified case for prepackaged food filing, not broad legal ruling on all separate addresses/areas and restaurant arrangements"
+    },
+    {
+      "id": "CP13", "source": "深圳晚报：南山7家宝藏社区食堂挨个逛", "type": "journalist visited civic food provision", "published": "2026-06-01", "geography": "Shenzhen Nanshan, different district", "url": "https://www.sznews.com/news/content/2026-06/01/content_32073500.htm",
+      "facts": {"wuwan_breakfast_price_range": [1, 12], "wuwan_reported_typical_meal": 5, "mingzhu_breakfast_item_price_range": [2, 5], "mingzhu_reported_typical_meal": 8, "mingzhu_lunch_dinner_menu_range": [12, 22]},
+      "use": "resident food affordability and alternative supply",
+      "boundary": "civic affordability model, subsidies not controlled; no direct private-shop cost transfer"
+    },
+    {
+      "id": "CP14", "source": "广东省食品经营许可和备案实施细则", "type": "official provincial regulation", "published": "2025-02-19 (document signed 2025-01-17)", "geography": "Guangdong", "url": "https://amr.sz.gov.cn/xxgk/zcwj/scjgfg/content/post_12816799.html",
+      "facts": {"different_business_location_license_or_filing": true, "matching_registered_addresses_required": true, "simple_production_includes_thawing_heating_combination": true, "simple_production_still_requires_relevant_permitted_category": true, "food_retail_also_making_hot_cold_or_drinks_requires_corresponding_food_service_license_review": true},
+      "use": "E compliance gating",
+      "boundary": "specific circumstances require regulator confirmation"
+    },
+    {
+      "id": "CP15", "source": "中国政府采购网：福海街道新和社区土地整备利益统筹项目土地整备单元规划研究项目招标", "type": "official tender", "published": "2026-11-05", "geography": "Xinhe community", "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202611/t20261105_27631162.htm",
+      "facts": {"tender_budget_cny": 2400000, "planned_contract_duration_months": 18, "project_type": "规划研究"},
+      "use": "specific address and lease/early closure checks",
+      "boundary": "tender only; not proof of demolition, compensation, timeline or coverage of any specific premises"
+    },
+    {
+      "id": "CP16", "source": "立达标讯所载同项目采购失败公告", "type": "third-party mirror", "published": "2026-11-20", "geography": "Xinhe", "url": "https://www.arrbid.com/biddetail/2026-0716CC566F804FF1ABE6CD8580CD4425.html",
+      "facts": {"reported_procurement_failure": true, "reported_bidder_count_under": 3},
+      "use": "avoid overclaiming tender current status; actual municipal result page not obtained",
+      "boundary": "not primary official result; later updates unknown; not a separate procurement"
+    },
+    {
+      "id": "CP17", "source": "福海街道办事处机构概况", "type": "official street-level previously used evidence", "published": "2026", "geography": "Fuhai street", "url": "https://www.baoan.gov.cn/xxgk/jgk/jdbsc/content/post_12887016.html",
+      "facts": {"area_km2": 31.8, "communities": 7, "managed_population_approx": 530000, "registered_population_approx": 61000, "enterprises_min": 4500, "2025_industry_output_cny": 180500000000},
+      "use": "area structure, not store flow",
+      "boundary": "street totals not Xinhe household income or potential customer base"
+    },
+    {
+      "id": "CP18", "source": "深圳政府在线：宝安福海新和基围文化陈列馆开馆", "type": "government local community journalism", "published": "2026-10-26", "geography": "target community", "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_13042340.html",
+      "facts": {"local_cultural_exhibition_opened": true},
+      "use": "community history and real local context, not tourist count or product demand",
+      "boundary": "photo rights not established; link to original only"
+    }
+  ],
+  "menu_and_people": {
+    "A": {"name": "传统早餐", "test_onsite_tickets": [6, 8.5, 10], "example": "包点+蛋+豆浆，粥/米粉/面点少SKU", "partner_a": "验收、备料、蒸/煮、品质", "partner_b": "温控、包装、收银、线上接单和出餐", "bottleneck": "热食批次、包装、共同产能", "compare": ["CP01","CP03","CP09","CP11","CP13"]},
+    "B": {"name": "特色便携", "test_onsite_tickets": [10, 12.5, 16], "example": "鸡蛋蔬菜饭团/三明治+奶或无糖饮", "partner_a": "备料、配方冷链、标准出品", "partner_b": "保质期、包装、自提订单与结算", "bottleneck": "冷藏和标准化，报损与真实付费意愿", "compare": ["CP07","CP09"]},
+    "C": {"name": "早餐+休闲零食", "test_onsite_tickets": [8, 10, 13], "example": "热食早餐、少量预包装、奶/酸奶、谷物水果", "partner_a": "热食生产、蒸制、清洁", "partner_b": "库存、陈列、收银，忙时协作", "bottleneck": "短保SKU、添购率和库存占用", "compare": ["CP07","CP08","CP13"]},
+    "D": {"name": "多时段餐饮", "test_onsite_tickets": [13, 16, 22], "example": "早餐、午间简餐与另测加餐或晚餐", "partner_a": "基础热食、简餐、食品品质", "partner_b": "备货、订单与交接、洗消盘点", "bottleneck": "专业热厨与高峰工时、10–14元园区食堂替代", "compare": ["CP03","CP04","CP05","CP13"]},
+    "E": {"name": "分时共享/店中店", "test_onsite_tickets": [6, 8, 10], "example": "A/B少SKU组合，按合法时段及设备", "partner_a": "生产和清洁交接", "partner_b": "合同、许可、独立结算与租金/分账", "bottleneck": "主体及许可、物业/房东书面协议、共享设备容量、费用和退出", "compare": ["CP08","CP12","CP14","CP15","CP16"]}
+  },
+  "finance_transmission": {
+    "do_not_recalibrate_orders_without_actual_sales": true,
+    "D_price_sensitivity": {"base_onsite_ticket": 16, "stress_onsite_ticket": [12, 14], "source_id": "CP04", "assumption": "stress test; preserve base unit cost rather than automatic proportional ingredient savings"},
+    "B_benchmark": {"base": 12.5, "nearby_cities_price": [12.9, 14.9], "source_id": "CP07", "note": "different Shenzhen district; no local price change"},
+    "two_partner_salary": 0,
+    "E_status": "conditional feasibility only, no verified shared contract",
+    "real_local_demand": {"adult_counts": null, "local_actual_sales": null, "menu_price_distribution": null, "current_school_breakfast": null, "household_income": null, "share_and_repeat": null}
+  },
+  "reader_visual_specs": [
+    {"page": "same meal alternatives", "data": ["CP01","CP03","CP04","CP07"], "visual": "family/adults -> home cooking, school or work canteen, convenience store, commercial restaurant; place real price labels on actual alternative, not flow percentages"},
+    {"page": "adult workday vs rest day", "data": ["CP06"], "visual": "two horizontal bars 81.4% and 70.1%, 11.3 percentage-point gap; study data 2021 N=11162; not purchases"},
+    {"page": "five operating modes", "data": ["menu_and_people"], "visual": "small food photos or clearly labeled illustrations + mode label, test ticket, what each partner does, operational bottleneck"},
+    {"page": "shared and new time periods", "data": ["CP08","CP12","CP14","CP15","CP16"], "visual": "legitimate contract licence zone expense and cashflow gates; compare independent store and time-sharing operation; avoid implying actual approved host"}
+  ]
+}
